@@ -1742,3 +1742,21 @@ a {
   filter: grayscale(1) brightness(0.85) contrast(1.05);
   border-radius: 1px;
 }
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.w3-ruby {
+  color: #CC0000;
+}
+
+.w3-hover-ruby:hover {
+  color: rgba(204, 0, 0, 0.808);
+}
+
+form button {
+  background-color: red !important;
+  color: white;
+}
