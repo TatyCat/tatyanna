@@ -1217,7 +1217,7 @@ a {
 }
 
 .w3-jumbo {
-  font-size: 64px!important
+  font-size: 4em;
 }
 
 .w3-left-align {
@@ -1229,7 +1229,7 @@ a {
 }
 
 .w3-justify {
-  text-align: justify!important
+  text-align: justify;
 }
 
 .w3-center {
@@ -1744,8 +1744,17 @@ a {
 }
 
 .skills {
+  text-align: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.top-tech-skills {
+  float: left;
+}
+
+.top-soft-skills {
+  float: right;
 }
 
 .w3-ruby {
@@ -1759,4 +1768,26 @@ a {
 form button {
   background-color: red !important;
   color: white;
+}
+
+.top-work-skills section {
+  text-align: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.top-work-skills section p {
+  margin: .5rem;
+  padding: .3rem;
+  background-color: rgb(33, 33, 33);
+}
+
+#myNavbar div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#home h1 {
+  font-size: calc(6.6vh + .1vw) !important;
 }

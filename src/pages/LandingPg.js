@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import avatarPic from '../images/randalyn-hill-1192073-unsplash.jpg'
-// silver-keyboard-on-blue-background_4460x4460.jpg'
 import landingPic from '../images/daniel-korpai-1124393-unsplash.jpg'
 
 class LandingPg extends Component {
@@ -34,10 +33,10 @@ class LandingPg extends Component {
           {/* <!-- Navbar on small screens (Hidden on medium and large screens) --> */}
           <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
             <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-              <a href="#" className="w3-bar-item w3-button" style={{ width: "25% !important" }}>HOME</a>
-              <a href="#about" className="w3-bar-item w3-button" style={{ width: "25% !important" }}>ABOUT</a>
-              <a href="#photos" className="w3-bar-item w3-button" style={{ width: "25% !important" }}>PHOTOS</a>
-              <a href="#contact" className="w3-bar-item w3-button" style={{ width: "25% !important" }}>CONTACT</a>
+              <a href="#" className="w3-bar-item w3-button" >HOME</a>
+              <a href="#about" className="w3-bar-item w3-button">ABOUT</a>
+              <a href="#photos" className="w3-bar-item w3-button">PORTFOLIO</a>
+              <a href="#contact" className="w3-bar-item w3-button">CONTACT</a>
             </div>
           </div>
 
@@ -45,8 +44,8 @@ class LandingPg extends Component {
           <div className="w3-padding-large" id="main">
             {/* <!-- Header/Home --> */}
             <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
-              <h1 className="w3-jumbo"><span className="w3-hide-small">I am</span> Tatyanna Cobb.</h1>
-              <p>Full Stack Ruby and React Developer.</p>
+              <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span>Tatyanna Cobb</h1>
+              <p>Full Stack Ruby and React Developer </p>
               <img src={landingPic} alt="computer vibes" className="w3-image landing-image" width="992" height="1108" />
             </header>
 
@@ -54,27 +53,67 @@ class LandingPg extends Component {
             <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
               <h2 className="w3-text-light-grey">Who am I?</h2>
               <hr className="width:200px" className="w3-opacity" />
-              <p>I am Tatyanna and I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
+              <p>I am Tatyanna and I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
               </p>
               <article className="skills">
                 <section className="top-tech-skills">
-                  <h3 className="w3-padding-16 w3-text-light-grey">Top Skills</h3>
-                  <p className="w3-wide">CSS <i class="fab fa-css3-alt"></i></p>
-                  <p className="w3-wide">JavaScript <i class="fab fa-js"></i></p>
-                  <p className="w3-wide">React <i class="fab fa-react"></i></p>
-                  <p className="w3-wide">Ruby <i class="far fa-gem"></i></p>
-                  <p className="w3-wide">PostgreSQL <i class="fas fa-database"></i></p>
-                  <p className="w3-wide">Rails <i class="far fa-gem"></i></p>
+                  <h3 className="w3-padding-16 w3-text-light-grey">Top Languages</h3>
+                  <p className="w3-wide w3-large ">CSS <i class="fab fa-css3-alt"></i></p>
+                  <p className="w3-wide w3-large ">JavaScript ES6<i class="fab fa-js"></i></p>
+                  <p className="w3-wide w3-large ">React <i class="fab fa-react"></i></p>
+                  <p className="w3-wide w3-large  w3-large ">Ruby <i class="far fa-gem"></i></p>
+                  <p className="w3-wide w3-large ">PostgreSQL <i class="fas fa-database"></i></p>
+                  <p className="w3-wide w3-large ">Rails <i class="far fa-gem"></i></p>
                 </section>
 
                 {/* <!-- Soft Skills --> */}
                 <section className="top-soft-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Soft Skills</h3>
-                  <p className="w3-wide">Empathy <i class="fas fa-check"></i></p>
-                  <p className="w3-wide">Problem Solving <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Empathy <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large">Problem Solving Abilities <i class="fas fa-check  w3-large "></i></p>
+                  <p className="w3-wide w3-large ">Adaptability <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Leadership<i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Communication Skills<i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Interpersonal Skills<i class="fas fa-check"></i></p>
                 </section>
               </article>
-
+              <section className="top-work-skills">
+                <h3 className="w3-padding-16 w3-text-light-grey">General Skills</h3>
+                <section>
+                  <p className="w3-wide">GIT</p>
+                  <p className="w3-wide">GITHUB</p>
+                  <p className="w3-wide">AXIOS</p>
+                  <p className="w3-wide">FETCH</p>
+                  <p className="w3-wide">MYSQL</p>
+                  <p className="w3-wide">ACTIVE RECORD</p>
+                  <p className="w3-wide">READING DOCUMENTATION</p>
+                  <p className="w3-wide">FLASK</p>
+                  <p className="w3-wide">DJANGO</p>
+                  <p className="w3-wide">PYTHON</p>
+                  <p className="w3-wide">RESPONSIVE DESIGN</p>
+                  <p className="w3-wide">FLEXBOX</p>
+                  <p className="w3-wide">NPM</p>
+                  <p className="w3-wide">YARN</p>
+                  <p className="w3-wide">REST API</p>
+                  <p className="w3-wide">PGCLI</p>
+                  <p className="w3-wide">REACT ROUTER</p>
+                  <p className="w3-wide">WEB DEVELOPMENT</p>
+                  <p className="w3-wide">IOS DEVELOPMENT</p>
+                  <p className="w3-wide">SWIFT</p>
+                  <p className="w3-wide">XCODE - PLAYGROUND</p>
+                  <p className="w3-wide">JS ES5</p>
+                  <p className="w3-wide">SLACK</p>
+                  <p className="w3-wide">DISCORD</p>
+                  <p className="w3-wide">SINATRA</p>
+                  <p className="w3-wide">POSTMAN</p>
+                  <p className="w3-wide">WIREFRAMING</p>
+                  <p className="w3-wide">NODE</p>
+                  <p className="w3-wide">SKETCH</p>
+                  <p className="w3-wide">PHOTOSHOP</p>
+                  <p className="w3-wide">BASH TERMINAL</p>
+                  <p className="w3-wide">VISUAL STUDIO CODE</p>
+                </section>
+              </section>
               <br />
 
               <p className="w3-center">
@@ -92,7 +131,7 @@ class LandingPg extends Component {
               <h2 className="w3-text-light-grey">Portfolio</h2>
               <hr style={{ width: "200px" }} className="w3-opacity" />
 
-              {/* <!-- Grid for photos --> */}
+              {/* <!-- Grid for portfolio --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
                 <div className="w3-half">
                   <img src="/w3images/wedding.jpg" style={{ width: "100%" }} />
