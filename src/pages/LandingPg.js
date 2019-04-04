@@ -196,7 +196,7 @@ class LandingPg extends Component {
                 </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="https://paypal.me/DevTatyanna"><i className="fas fa-donate w3-hover-opacity w3-hover-ruby"></i>
+                      <a href="https://paypal.me/DevTatyanna" target="_blank"><i className="fas fa-donate w3-hover-opacity w3-hover-ruby"></i>
                       </a>
                     </span>
                     <br />
