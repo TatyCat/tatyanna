@@ -808,6 +808,12 @@ a {
   }
 }
 
+@media(max-width:450px) {
+  .skills {
+    flex-flow: column wrap;
+  }
+}
+
 @media (max-width:768px) {
   .w3-modal-content {
     width: 500px
@@ -1749,12 +1755,8 @@ a {
   justify-content: space-evenly;
 }
 
-.top-tech-skills {
-  float: left;
-}
-
-.top-soft-skills {
-  float: right;
+.top-soft-skills, .top-tech-skills {
+  flex: 1 1 80px;
 }
 
 .w3-ruby {
@@ -1765,9 +1767,9 @@ a {
   color: rgba(204, 0, 0, 0.808);
 }
 
-form button {
-  background-color: red !important;
-  color: white;
+form .w3-button:hover {
+  background-color: rgba(92, 1, 1, 0.92) !important;
+  color: white !important;
 }
 
 .top-work-skills section {
@@ -1781,6 +1783,7 @@ form button {
   margin: .5rem;
   padding: .3rem;
   background-color: rgb(33, 33, 33);
+  text-align: center;
 }
 
 #myNavbar div {
@@ -1790,4 +1793,8 @@ form button {
 
 #home h1 {
   font-size: calc(6.6vh + .1vw) !important;
+}
+
+#about {
+  line-height: 1.9;
 }

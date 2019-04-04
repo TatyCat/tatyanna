@@ -50,7 +50,7 @@ class LandingPg extends Component {
             </header>
 
             {/* <!-- About Section --> */}
-            <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <div className="w3-content w3-text-grey w3-padding-64" id="about">
               <h2 className="w3-text-light-grey">Who am I?</h2>
               <hr className="width:200px" className="w3-opacity" />
               <p>I am Tatyanna and I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
@@ -59,7 +59,7 @@ class LandingPg extends Component {
                 <section className="top-tech-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Languages</h3>
                   <p className="w3-wide w3-large ">CSS <i class="fab fa-css3-alt"></i></p>
-                  <p className="w3-wide w3-large ">JavaScript ES6<i class="fab fa-js"></i></p>
+                  <p className="w3-wide w3-large ">JavaScript ES6 <i class="fab fa-js"></i></p>
                   <p className="w3-wide w3-large ">React <i class="fab fa-react"></i></p>
                   <p className="w3-wide w3-large  w3-large ">Ruby <i class="far fa-gem"></i></p>
                   <p className="w3-wide w3-large ">PostgreSQL <i class="fas fa-database"></i></p>
@@ -70,11 +70,11 @@ class LandingPg extends Component {
                 <section className="top-soft-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Soft Skills</h3>
                   <p className="w3-wide w3-large ">Empathy <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large">Problem Solving Abilities <i class="fas fa-check  w3-large "></i></p>
+                  <p className="w3-wide w3-large">Problem Solving<i class="fas fa-check  w3-large "></i></p>
                   <p className="w3-wide w3-large ">Adaptability <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Leadership<i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Communication Skills<i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Interpersonal Skills<i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Leadership <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Communication <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Interpersonal <i class="fas fa-check"></i></p>
                 </section>
               </article>
               <section className="top-work-skills">
