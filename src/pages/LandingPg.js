@@ -157,15 +157,15 @@ class LandingPg extends Component {
 
               <p>If you believe I would be a great fit with your company,<br /> <span className="w3-large">let's get in touch:</span></p>
 
-              <form action="https://formspree.io/purebrassapps@gmail.com" method="POST">
+              <form action="https://formspree.io/tatyanna.cobb@gmail.com" method="POST">
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" /></p>
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message" /></p>
+                <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="_replyto" /></p>
+                <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" name="Subject" /></p>
+                <p><textarea className="w3-input w3-padding-16 text-area" type="text" placeholder="Message" required name="Message" /></p>
                 <p>
-                  <button className="w3-button w3-light-grey w3-padding-large" type="submit">
+                  <button className="w3-button w3-light-grey w3-padding-large" type="submit" >
                     <i className="fa fa-paper-plane w3-ruby"></i> SEND MESSAGE
-                </button>
+                  </button>
                 </p>
               </form>
 

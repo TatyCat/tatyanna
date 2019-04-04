@@ -1798,3 +1798,8 @@ form .w3-button:hover {
 #about {
   line-height: 1.9;
 }
+
+.text-area {
+  resize: vertical !important;
+  overflow: auto;
+}
