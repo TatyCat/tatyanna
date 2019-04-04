@@ -157,7 +157,7 @@ class LandingPg extends Component {
 
               <p>If you believe I would be a great fit with your company,<br /> <span className="w3-large">let's get in touch:</span></p>
 
-              <form action="#">
+              <form action="https://formspree.io/purebrassapps@gmail.com" method="POST">
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email" /></p>
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject" /></p>
@@ -168,8 +168,8 @@ class LandingPg extends Component {
                 </button>
                 </p>
               </form>
-              <br />
 
+              <br />
 
               <div className="w3-section">
                 <div className="w3-row w3-center w3-padding-16 w3-section w3-border ">
