@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import LandingPg from './components/LandingPg'
+import LandingPg from './pages/LandingPg'
 
 class App extends Component {
   render() {

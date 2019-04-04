@@ -52,38 +52,45 @@ class LandingPg extends Component {
 
             {/* <!-- About Section --> */}
             <div className="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-              <h2 className="w3-text-light-grey">My Name</h2>
+              <h2 className="w3-text-light-grey">Who am I?</h2>
               <hr className="width:200px" className="w3-opacity" />
-              <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <p>I am Tatyanna and I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more.
               </p>
-              <h3 className="w3-padding-16 w3-text-light-grey">My Skills</h3>
+
+              <h3 className="w3-padding-16 w3-text-light-grey">Top Skills</h3>
               <p className="w3-wide">CSS</p>
-              <div className="w3-white">
-                <div className="w3-dark-grey" style={{ height: "28px", width: "95%" }}></div>
-              </div>
-              <p className="w3-wide">JavaScript</p>
               <div className="w3-white">
                 <div className="w3-dark-grey" style={{ height: "28px", width: "85%" }}></div>
               </div>
+              <p className="w3-wide">JavaScript</p>
+              <div className="w3-white">
+                <div className="w3-dark-grey" style={{ height: "28px", width: "55%" }}></div>
+              </div>
               <p className="w3-wide">React</p>
               <div className="w3-white">
-                <div className="w3-dark-grey" style={{ height: "28px", width: "80%" }}></div>
+                <div className="w3-dark-grey" style={{ height: "28px", width: "60%" }}></div>
               </div>
 
               <p className="w3-wide">PostgreSQL</p>
               <div className="w3-white">
-                <div className="w3-dark-grey" style={{ height: "28px", width: "95%" }}></div>
+                <div className="w3-dark-grey" style={{ height: "28px", width: "50%" }}></div>
               </div>
               <p className="w3-wide">Ruby</p>
               <div className="w3-white">
-                <div className="w3-dark-grey" style={{ height: "28px", width: "85%" }}></div>
+                <div className="w3-dark-grey" style={{ height: "28px", width: "55%" }}></div>
               </div>
               <p className="w3-wide">Rails</p>
               <div className="w3-white">
                 <div className="w3-dark-grey" style={{ height: "28px", width: "80%" }}></div>
-              </div><br />
+              </div>
+
+
+              <p className="w3-wide">Problem Solving</p>
+              <div className="w3-white">
+                <div className="w3-dark-grey" style={{ height: "28px", width: "90%" }}></div>
+              </div>
+
+              <br />
 
               <div className="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
                 <div className="w3-quarter w3-section">
