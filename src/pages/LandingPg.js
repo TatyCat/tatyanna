@@ -45,15 +45,15 @@ class LandingPg extends Component {
             {/* <!-- Header/Home --> */}
             <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
               <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span>Tatyanna Cobb</h1>
-              <p>Full Stack Ruby and React Developer </p>
+              <p>Full Stack Software Developer </p>
               <img src={landingPic} alt="computer vibes" className="w3-image landing-image" width="992" height="1108" />
             </header>
 
             {/* <!-- About Section --> */}
             <div className="w3-content w3-text-grey w3-padding-64" id="about">
-              <h2 className="w3-text-light-grey">Who am I?</h2>
+              <h2 className="w3-text-light-grey">Tatyanna <span className="w3-text-grey">Cobb</span></h2>
               <hr className="width:200px" className="w3-opacity" />
-              <p>I am Tatyanna and I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
+              <p>I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
               </p>
               <article className="skills">
                 <section className="top-tech-skills">
@@ -78,7 +78,7 @@ class LandingPg extends Component {
                 </section>
               </article>
               <section className="top-work-skills">
-                <h3 className="w3-padding-16 w3-text-light-grey">General Skills</h3>
+                <h3 className="w3-padding-16 w3-text-light-grey">Unicorn Skills</h3>
                 <section>
                   <p className="w3-wide">GIT</p>
                   <p className="w3-wide">GITHUB</p>
@@ -134,14 +134,11 @@ class LandingPg extends Component {
               {/* <!-- Grid for portfolio --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
                 <div className="w3-half">
-                  <img src="/w3images/wedding.jpg" style={{ width: "100%" }} />
                   <img src="/w3images/rocks.jpg" style={{ width: "100%" }} />
                   <img src="/w3images/sailboat.jpg" style={{ width: "100%" }} />
                 </div>
 
                 <div className="w3-half">
-                  <img src="/w3images/underwater.jpg" style={{ width: "100%" }} />
-                  <img src="/w3images/chef.jpg" style={{ width: "100%" }} />
                   <img src="/w3images/wedding.jpg" style={{ width: "100%" }} />
                   <img src="/w3images/p6.jpg" style={{ width: "100%" }} />
                 </div>
@@ -155,7 +152,7 @@ class LandingPg extends Component {
               <h2 className="w3-text-light-grey">Contact Me</h2>
               <hr style={{ width: "200px" }} className="w3-opacity" />
 
-              <p>If you believe I would be a great fit with your company,<br /> <span className="w3-large">let's get in touch:</span></p>
+              <p>If you believe I would be a great fit with your company,<br /> let's get in touch:</p>
 
               <form action="https://formspree.io/tatyanna.cobb@gmail.com" method="POST">
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
@@ -173,6 +170,13 @@ class LandingPg extends Component {
 
               <div className="w3-section">
                 <div className="w3-row w3-center w3-padding-16 w3-section w3-border ">
+                  <div className="w3-quarter w3-section ">
+                    <span className="w3-xlarge">
+                      <a href="https://github.com/TatyCat" target="_blank"><i className=" fab fa-github w3-hover-opacity w3-hover-ruby"></i></a>
+                    </span>
+                    <br />
+                    Github
+                </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
                       <a href="https://twitter.com/DevTaty" target="_blank"><i className="fab fa-twitter w3-hover-opacity w3-hover-ruby"></i></a>
@@ -194,14 +198,7 @@ class LandingPg extends Component {
                     <br />
                     Email
                 </div>
-                  <div className="w3-quarter w3-section">
-                    <span className="w3-xlarge">
-                      <a href="https://paypal.me/DevTatyanna" target="_blank"><i className="fas fa-donate w3-hover-opacity w3-hover-ruby"></i>
-                      </a>
-                    </span>
-                    <br />
-                    Paypal
-                  </div>
+
                 </div>
               </div>
 
