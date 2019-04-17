@@ -1488,8 +1488,8 @@ a {
 }
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
-  color: #000!important;
-  background-color: #f1f1f1!important
+  color: #000;
+  background-color: #f1f1f1;
 }
 
 .w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
@@ -1744,7 +1744,7 @@ a {
 /* TC ADDED CSS */
 
 .landing-image {
-  /* -webkit-filter: grayscale(1) brightness(0.45) contrast(1.05); */
+  -webkit-filter: grayscale(1) brightness(0.85) contrast(1.05);
   filter: grayscale(1) brightness(0.85) contrast(1.05);
   border-radius: 1px;
 }
@@ -1763,12 +1763,23 @@ a {
   color: #CC0000;
 }
 
-.w3-hover-ruby:hover {
-  color: rgba(204, 0, 0, 0.808);
+form .w3-button {
+  border: 1px solid #ccc;
+  color: white;
 }
 
 form .w3-button:hover {
-  color: white !important;
+  color: rgb(214, 214, 214) !important;
+  background-color: transparent !important;
+  /*  */
+}
+
+form .w3-button:hover i {
+  /* transform: scale(1.3); */
+  opacity: .85;
+  transition: opacity 0.4s;
+  transform: rotate(-360deg);
+  transition: transform 1.5s;
 }
 
 .top-work-skills section {
@@ -1801,4 +1812,20 @@ form .w3-button:hover {
 .text-area {
   resize: vertical !important;
   overflow: auto;
+}
+
+.w3-section div span a i:hover {
+  transform: scale(1.5);
+}
+
+.portfolio-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.portfolio-img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
 }

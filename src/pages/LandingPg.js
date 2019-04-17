@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import avatarPic from '../images/randalyn-hill-1192073-unsplash.jpg'
 import landingPic from '../images/daniel-korpai-1124393-unsplash.jpg'
+import stitchMateCapstone from '../images/stitchMateCapstone.png'
+import reactColorPick from '../images/reactColorPick.png'
+import weatherApi from '../images/weatherApi.png'
+import scoreboardjs from '../images/scoreboardjs.png'
+
 
 class LandingPg extends Component {
   render() {
@@ -10,7 +15,7 @@ class LandingPg extends Component {
           {/* <!-- Icon Bar (Sidebar - hidden on small screens) --> */}
           <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
             {/* <!-- Avatar image in top left corner --> */}
-            <img src={avatarPic} className="landing-image " style={{ width: "100%" }} />
+            <img src={avatarPic} className="landing-image " alt="Macbook Laptop" style={{ width: "100%" }} />
             <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
               <i className="fa fa-home w3-xxlarge"></i>
               <p>HOME</p>
@@ -52,29 +57,29 @@ class LandingPg extends Component {
             {/* <!-- About Section --> */}
             <div className="w3-content w3-text-grey w3-padding-64" id="about">
               <h2 className="w3-text-light-grey">Tatyanna <span className="w3-text-grey">Cobb</span></h2>
-              <hr className="width:200px" className="w3-opacity" />
+              <hr className="width:200px w3-opacity" />
               <p>I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusiasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
               </p>
               <article className="skills">
                 <section className="top-tech-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Languages</h3>
-                  <p className="w3-wide w3-large ">CSS <i class="fab fa-css3-alt"></i></p>
-                  <p className="w3-wide w3-large ">JavaScript ES6 <i class="fab fa-js"></i></p>
-                  <p className="w3-wide w3-large ">React <i class="fab fa-react"></i></p>
-                  <p className="w3-wide w3-large  w3-large ">Ruby <i class="far fa-gem"></i></p>
-                  <p className="w3-wide w3-large ">PostgreSQL <i class="fas fa-database"></i></p>
-                  <p className="w3-wide w3-large ">Rails <i class="far fa-gem"></i></p>
+                  <p className="w3-wide w3-large ">CSS <i className="fab fa-css3-alt"></i></p>
+                  <p className="w3-wide w3-large ">JavaScript ES6 <i className="fab fa-js"></i></p>
+                  <p className="w3-wide w3-large ">React <i className="fab fa-react"></i></p>
+                  <p className="w3-wide w3-large  w3-large ">Ruby <i className="far fa-gem"></i></p>
+                  <p className="w3-wide w3-large ">PostgreSQL <i className="fas fa-database"></i></p>
+                  <p className="w3-wide w3-large ">Rails <i className="far fa-gem"></i></p>
                 </section>
 
                 {/* <!-- Soft Skills --> */}
                 <section className="top-soft-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Soft Skills</h3>
-                  <p className="w3-wide w3-large ">Empathy <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large">Problem Solving<i class="fas fa-check  w3-large "></i></p>
-                  <p className="w3-wide w3-large ">Adaptability <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Leadership <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Communication <i class="fas fa-check"></i></p>
-                  <p className="w3-wide w3-large ">Interpersonal <i class="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Empathy <i className="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large">Problem Solving<i className="fas fa-check  w3-large "></i></p>
+                  <p className="w3-wide w3-large ">Adaptability <i className="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Leadership <i className="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Communication <i className="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large ">Interpersonal <i className="fas fa-check"></i></p>
                 </section>
               </article>
               <section className="top-work-skills">
@@ -118,7 +123,7 @@ class LandingPg extends Component {
 
               <p className="w3-center">
                 <button disabled className="w3-button w3-light-grey w3-padding-large w3-section">
-                  <a href={"https://www.-.com"} target="_blank"></a><i className="fa fa-download w3-disabled"></i> Download Resume
+                  <a href={"https://www.-.com"} target="_blank" rel="noopener noreferrer" ></a><i className="fa fa-download w3-disabled"></i> Download Resume
                 </button>
               </p>
               {/* <!-- End About Section --> */}
@@ -134,13 +139,23 @@ class LandingPg extends Component {
               {/* <!-- Grid for portfolio --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
                 <div className="w3-half">
-                  <img src="/w3images/rocks.jpg" style={{ width: "100%" }} />
-                  <img src="/w3images/sailboat.jpg" style={{ width: "100%" }} />
+                  <a href="https://github.com/TatyCat/stitchmate" target="_blank">
+                    <img className="portfolio-img" alt="StitchMate Capstone Img and Link" src={stitchMateCapstone} style={{ width: "100%" }} />
+                  </a>
+
+                  <a href="https://github.com/TatyCat/colorpickrevampedhooks" target="_blank">
+                    <img className="portfolio-img" alt="Photo of app to select colors with React Hooks used" src={reactColorPick} style={{ width: "100%" }} />
+                  </a>
                 </div>
 
                 <div className="w3-half">
-                  <img src="/w3images/wedding.jpg" style={{ width: "100%" }} />
-                  <img src="/w3images/p6.jpg" style={{ width: "100%" }} />
+                  <a href="https://github.com/TatyCat/weatherapi" target="_blank">
+                    <img className="portfolio-img" alt="Image of Weather Api project" src={weatherApi} style={{ width: "100%" }} />
+                  </a>
+
+                  <a href="https://github.com/TatyCat/scoreboardapp" target="_blank">
+                    <img className="portfolio-img" src={scoreboardjs} style={{ width: "100%" }} />
+                  </a>
                 </div>
                 {/* <!-- End photo grid --> */}
               </div>
@@ -160,7 +175,7 @@ class LandingPg extends Component {
                 <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" name="Subject" /></p>
                 <p><textarea className="w3-input w3-padding-16 text-area" type="text" placeholder="Message" required name="Message" /></p>
                 <p>
-                  <button className="w3-button w3-light-grey w3-padding-large" type="submit" >
+                  <button className="w3-button w3-padding-large" type="submit" >
                     <i className="fa fa-paper-plane w3-ruby"></i> SEND MESSAGE
                   </button>
                 </p>
@@ -172,28 +187,28 @@ class LandingPg extends Component {
                 <div className="w3-row w3-center w3-padding-16 w3-section w3-border ">
                   <div className="w3-quarter w3-section ">
                     <span className="w3-xlarge">
-                      <a href="https://github.com/TatyCat" target="_blank"><i className=" fab fa-github w3-hover-opacity w3-hover-ruby"></i></a>
+                      <a href="https://github.com/TatyCat" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-github w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     Github
                 </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="https://twitter.com/DevTaty" target="_blank"><i className="fab fa-twitter w3-hover-opacity w3-hover-ruby"></i></a>
+                      <a href="https://twitter.com/DevTaty" target="_blank" rel="noopener noreferrer" ><i className="fab fa-twitter w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     Twitter
                 </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="https://www.linkedin.com/in/tatyannac/" target="_blank"><i className=" fab fa-linkedin-in w3-hover-opacity w3-hover-ruby"></i></a>
+                      <a href="https://www.linkedin.com/in/tatyannac/" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-linkedin-in w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     LinkedIn
                 </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="mailto:tatyanna.cobb@gmail.com" target="_blank"><i className="w3-hover-opacity fas fa-envelope w3-hover-opacity w3-hover-ruby"></i></a>
+                      <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     Email
@@ -205,11 +220,8 @@ class LandingPg extends Component {
               {/* <!-- End Contact Section --> */}
             </div>
 
-
             {/* <!-- END PAGE CONTENT --> */}
           </div>
-
-
         </section >
       </>
 
