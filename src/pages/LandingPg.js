@@ -119,12 +119,14 @@ class LandingPg extends Component {
                   <p className="w3-wide">VISUAL STUDIO CODE</p>
                 </section>
               </section>
+
               <br />
 
               <p className="w3-center">
-                <button disabled className="w3-button w3-light-grey w3-padding-large w3-section">
-                  <a href={"https://www.-.com"} target="_blank" rel="noopener noreferrer" ></a><i className="fa fa-download w3-disabled"></i> Download Resume
+                <a href="https://drive.google.com/file/d/1_lgCPBfbXYhvqH3el_y1PIrTQm0GkYm7/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="w3-button w3-light-grey w3-padding-large w3-section">
+                  <i className="fa fa-download w3-disabled"></i> Download Resume
                 </button>
+                </a>
               </p>
               {/* <!-- End About Section --> */}
             </div>
@@ -139,22 +141,22 @@ class LandingPg extends Component {
               {/* <!-- Grid for portfolio --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
                 <div className="w3-half">
-                  <a href="https://github.com/TatyCat/stitchmate" target="_blank">
+                  <a href="https://github.com/TatyCat/stitchmate" rel="noopener noreferrer" target="_blank">
                     <img className="portfolio-img" alt="StitchMate Capstone Img and Link" src={stitchMateCapstone} style={{ width: "100%" }} />
                   </a>
 
-                  <a href="https://github.com/TatyCat/colorpickrevampedhooks" target="_blank">
-                    <img className="portfolio-img" alt="Photo of app to select colors with React Hooks used" src={reactColorPick} style={{ width: "100%" }} />
+                  <a href="https://github.com/TatyCat/colorpickrevampedhooks" target="_blank" rel="noopener noreferrer">
+                    <img className="portfolio-img" alt="App to select colors with React Hooks used" src={reactColorPick} style={{ width: "100%" }} />
                   </a>
                 </div>
 
                 <div className="w3-half">
-                  <a href="https://github.com/TatyCat/weatherapi" target="_blank">
-                    <img className="portfolio-img" alt="Image of Weather Api project" src={weatherApi} style={{ width: "100%" }} />
+                  <a href="https://github.com/TatyCat/weatherapi" target="_blank" rel="noopener noreferrer">
+                    <img className="portfolio-img" alt=" Weather Api project" src={weatherApi} style={{ width: "100%" }} />
                   </a>
 
-                  <a href="https://github.com/TatyCat/scoreboardapp" target="_blank">
-                    <img className="portfolio-img" src={scoreboardjs} style={{ width: "100%" }} />
+                  <a href="https://github.com/TatyCat/scoreboardapp" target="_blank" rel="noopener noreferrer">
+                    <img className="portfolio-img" alt="Scoreboard App" src={scoreboardjs} style={{ width: "100%" }} />
                   </a>
                 </div>
                 {/* <!-- End photo grid --> */}
