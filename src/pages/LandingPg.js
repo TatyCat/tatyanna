@@ -136,8 +136,9 @@ class LandingPg extends Component {
             {/* <!-- Portfolio Section --> */}
             <div className="w3-padding-64 w3-content" id="photos">
               <h2 className="w3-text-light-grey">Portfolio</h2>
-              <p>Click the images below to see the code repository and get a link to the live demo. </p>
               <hr style={{ width: "200px" }} className="w3-opacity" />
+              <p className="w3-text-grey">Click the images below to see the code repository and get a link to the live demo. </p>
+
 
               {/* <!-- Grid for portfolio --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
