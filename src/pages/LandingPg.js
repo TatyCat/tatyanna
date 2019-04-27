@@ -123,7 +123,7 @@ class LandingPg extends Component {
               <br />
 
               <p className="w3-center">
-                <a href="https://drive.google.com/file/d/1IA9rgkxoA-Btwyfh647_EIwQh_ovaBhG/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="w3-button w3-light-grey w3-padding-large w3-section">
+                <a href="https://drive.google.com/file/d/1Xi7AcKrFvnRqLtdvreJqobKKWbIIz7HA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="w3-button w3-light-grey w3-padding-large w3-section">
                   <i className="fa fa-download w3-disabled"></i> Download Resume
                 </button>
                 </a>
