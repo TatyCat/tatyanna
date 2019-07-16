@@ -75,7 +75,7 @@ class LandingPg extends Component {
                 {/* <!-- Soft Skills --> */}
                 <section className="top-soft-skills">
                   <h3 className="w3-padding-16 w3-text-light-grey">Top Soft Skills</h3>
-                  <p className="w3-wide w3-large ">Empathy <i className="fas fa-check"></i></p>
+                  <p className="w3-wide w3-large">Empathy <i className="fas fa-check"></i></p>
                   <p className="w3-wide w3-large">Problem Solving<i className="fas fa-check  w3-large "></i></p>
                   <p className="w3-wide w3-large ">Adaptability <i className="fas fa-check"></i></p>
                   <p className="w3-wide w3-large ">Leadership <i className="fas fa-check"></i></p>
