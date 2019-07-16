@@ -22,8 +22,11 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "dependencies": {
+    "handlebars": "^4.1.2",
+    "js-yaml": "^3.13.1",
     "json": "^9.0.6",
     "lodash": "^4.17.14",
+    "lodash.template": "^4.5.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "^2.1.8"
