@@ -146,13 +146,13 @@ class LandingPg extends Component {
                 <section className="top-work-skills w3-half">
                   <img className="w3-padding portfolio-img w3-block " alt="StitchMate Capstone App" src={stitchMateCapstone} />
                   <section>
-                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                    <button className="w3-button w3-ripple w3-margin  w3-padding-large w3-border">
                       <a href="https://github.com/TatyCat/stitchmate" rel="noopener noreferrer" target="_blank" >
                         VIEW THE CODE
                       </a>
                     </button>
 
-                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
                       <a href="https://stitchmate.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
                         SEE IT LIVE
                       </a>
@@ -163,13 +163,13 @@ class LandingPg extends Component {
                 <section className="top-work-skills w3-half">
                   <img className="w3-padding portfolio-img w3-block " alt="WordUp App" src={wordUp} />
                   <section>
-                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                    <button className="w3-button w3-ripple w3-margin  w3-padding-large w3-border">
                       <a href="https://github.com/TatyCat/wordup" rel="noopener noreferrer" target="_blank" >
                         VIEW THE CODE
                     </a>
                     </button>
 
-                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
                       <a href="https://wordup-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
                         SEE IT LIVE
                     </a>
@@ -180,13 +180,13 @@ class LandingPg extends Component {
                 <section className="top-work-skills w3-half">
                   <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={schoolApp} />
                   <section>
-                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                    <button className="w3-button w3-ripple w3-margin w3-padding-large w3-border">
                       <a href="https://github.com/TatyCat/schoolapp" rel="noopener noreferrer" target="_blank" >
                         VIEW THE CODE
                     </a>
                     </button>
 
-                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
                       <a href="https://schoolapp-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
                         SEE IT LIVE
                       </a>
@@ -197,13 +197,13 @@ class LandingPg extends Component {
                 <section className="top-work-skills w3-half">
                   <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={reactColorPick} />
                   <section>
-                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                    <button className="w3-button w3-margin  w3-padding-large w3-border w3-ripple">
                       <a href="https://github.com/TatyCat/colorpickrevampedhooks" rel="noopener noreferrer" target="_blank" >
                         VIEW THE CODE
                     </a>
                     </button>
 
-                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                    <button className="w3-margin w3-button w3-padding-large w3-border w3-ripple">
                       <a href="https://colorpickrevampedhooks-tatycat.netlify.com/" rel="noopener noreferrer" target="_blank" >
                         SEE IT LIVE
                       </a>
@@ -261,7 +261,7 @@ class LandingPg extends Component {
                   </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope w3-hover-opacity"></i></a>
+                      <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope"></i></a>
                     </span>
                     <br />
                     Email

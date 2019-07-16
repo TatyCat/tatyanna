@@ -1768,7 +1768,7 @@ form .w3-button {
   color: white;
 }
 
-form .w3-button:hover {
+.w3-button:hover {
   color: rgb(214, 214, 214) !important;
   background-color: transparent !important;
 }
@@ -1792,6 +1792,11 @@ form .w3-button:hover i {
   padding: .3rem;
   background-color: rgb(33, 33, 33);
   text-align: center;
+}
+
+.top-work-skills section button:hover {
+  color: white !important;
+  background-color: rgb(50, 50, 49) !important;
 }
 
 #myNavbar div {
@@ -1823,6 +1828,6 @@ form .w3-button:hover i {
   transition: .2s ease-in-out;
 }
 
-a{
+a {
   text-decoration: none;
 }
