@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+
 import avatarPic from '../images/randalyn-hill-1192073-unsplash.jpg'
 import landingPic from '../images/daniel-korpai-1124393-unsplash.jpg'
 import stitchMateCapstone from '../images/stitchMateCapstone.png'
 import reactColorPick from '../images/reactColorPick.png'
-import weatherApi from '../images/weatherApi.png'
-import scoreboardjs from '../images/scoreboardjs.png'
+import wordUp from '../images/wordUp.png'
+import schoolApp from '../images/schoolApp.png'
 
 
 class LandingPg extends Component {
@@ -91,7 +92,6 @@ class LandingPg extends Component {
                   <p className="w3-wide">FETCH</p>
                   <p className="w3-wide">MYSQL</p>
                   <p className="w3-wide">ACTIVE RECORD</p>
-                  <p className="w3-wide">READING DOCUMENTATION</p>
                   <p className="w3-wide">FLASK</p>
                   <p className="w3-wide">DJANGO</p>
                   <p className="w3-wide">PYTHON</p>
@@ -104,9 +104,10 @@ class LandingPg extends Component {
                   <p className="w3-wide">REACT ROUTER</p>
                   <p className="w3-wide">WEB DEVELOPMENT</p>
                   <p className="w3-wide">IOS DEVELOPMENT</p>
+                  <p className="w3-wide">REACT NATIVE</p>
                   <p className="w3-wide">SWIFT</p>
-                  <p className="w3-wide">XCODE - PLAYGROUND</p>
-                  <p className="w3-wide">JS ES5</p>
+                  <p className="w3-wide">XCODE</p>
+                  <p className="w3-wide">JAVASCRIPT</p>
                   <p className="w3-wide">SLACK</p>
                   <p className="w3-wide">DISCORD</p>
                   <p className="w3-wide">SINATRA</p>
@@ -137,33 +138,81 @@ class LandingPg extends Component {
             <div className="w3-padding-64 w3-content" id="photos">
               <h2 className="w3-text-light-grey">Portfolio</h2>
               <hr style={{ width: "200px" }} className="w3-opacity" />
-              <p className="w3-text-grey">Click the images below to see the code repository and get a link to the live demo. </p>
+              <p className="w3-text-grey">See below for my top completed projects. Check back in the future for new projects that will continually be added. </p>
 
-
-              {/* <!-- Grid for portfolio --> */}
+              {/* <!-- Portfolio Grid --> */}
               <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
-                <div className="w3-half">
-                  <a href="https://github.com/TatyCat/stitchmate" rel="noopener noreferrer" target="_blank">
-                    <img className="portfolio-img" alt="StitchMate Capstone Img and Link" src={stitchMateCapstone} style={{ width: "100%" }} />
-                  </a>
 
-                  <a href="https://github.com/TatyCat/colorpickrevampedhooks" target="_blank" rel="noopener noreferrer">
-                    <img className="portfolio-img" alt="App to select colors with React Hooks used" src={reactColorPick} style={{ width: "100%" }} />
-                  </a>
-                </div>
+                <section className="top-work-skills w3-half">
+                  <img className="w3-padding portfolio-img w3-block " alt="StitchMate Capstone App" src={stitchMateCapstone} />
+                  <section>
+                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                      <a href="https://github.com/TatyCat/stitchmate" rel="noopener noreferrer" target="_blank" >
+                        VIEW THE CODE
+                      </a>
+                    </button>
 
-                <div className="w3-half">
-                  <a href="https://github.com/TatyCat/weatherapi" target="_blank" rel="noopener noreferrer">
-                    <img className="portfolio-img" alt=" Weather Api project" src={weatherApi} style={{ width: "100%" }} />
-                  </a>
+                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                      <a href="https://stitchmate.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
+                        SEE IT LIVE
+                      </a>
+                    </button>
+                  </section>
+                </section>
 
-                  <a href="https://github.com/TatyCat/scoreboardapp" target="_blank" rel="noopener noreferrer">
-                    <img className="portfolio-img" alt="Scoreboard App" src={scoreboardjs} style={{ width: "100%" }} />
-                  </a>
-                </div>
-                {/* <!-- End photo grid --> */}
+                <section className="top-work-skills w3-half">
+                  <img className="w3-padding portfolio-img w3-block " alt="WordUp App" src={wordUp} />
+                  <section>
+                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                      <a href="https://github.com/TatyCat/wordup" rel="noopener noreferrer" target="_blank" >
+                        VIEW THE CODE
+                    </a>
+                    </button>
+
+                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                      <a href="https://wordup-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
+                        SEE IT LIVE
+                    </a>
+                    </button>
+                  </section>
+                </section>
+
+                <section className="top-work-skills w3-half">
+                  <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={schoolApp} />
+                  <section>
+                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                      <a href="https://github.com/TatyCat/schoolapp" rel="noopener noreferrer" target="_blank" >
+                        VIEW THE CODE
+                    </a>
+                    </button>
+
+                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                      <a href="https://schoolapp-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
+                        SEE IT LIVE
+                      </a>
+                    </button>
+                  </section>
+                </section>
+
+                <section className="top-work-skills w3-half">
+                  <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={reactColorPick} />
+                  <section>
+                    <button className="w3-button w3-margin  w3-padding-large w3-border">
+                      <a href="https://github.com/TatyCat/colorpickrevampedhooks" rel="noopener noreferrer" target="_blank" >
+                        VIEW THE CODE
+                    </a>
+                    </button>
+
+                    <button className="w3-margin w3-button w3-padding-large w3-border">
+                      <a href="https://colorpickrevampedhooks-tatycat.netlify.com/" rel="noopener noreferrer" target="_blank" >
+                        SEE IT LIVE
+                      </a>
+                    </button>
+                  </section>
+                </section>
+
               </div>
-              {/* <!-- End Portfolio Section --> */}
+              {/* <!-- End Portfolio Section & Grid--> */}
             </div>
 
             {/* <!-- Contact Section --> */}
@@ -195,29 +244,28 @@ class LandingPg extends Component {
                     </span>
                     <br />
                     Github
-                </div>
+                  </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
                       <a href="https://twitter.com/DevTaty" target="_blank" rel="noopener noreferrer" ><i className="fab fa-twitter w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     Twitter
-                </div>
+                  </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
                       <a href="https://www.linkedin.com/in/tatyannac/" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-linkedin-in w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     LinkedIn
-                </div>
+                  </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
                       <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope w3-hover-opacity"></i></a>
                     </span>
                     <br />
                     Email
-                </div>
-
+                  </div>
                 </div>
               </div>
 
