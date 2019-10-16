@@ -16,7 +16,7 @@ body {
 /* W3.CSS 4.12 November 2018 by Jan Egil and Borge Refsnes */
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Cinzel", sans-serif !important;
 }
 
 .w3-row-padding img {
@@ -155,10 +155,6 @@ button, input, select, textarea {
   margin: 0
 }
 
-optgroup {
-  font-weight: bold
-}
-
 button, input {
   overflow: visible
 }
@@ -228,7 +224,7 @@ textarea {
 /* End extract */
 
 html, body {
-  font-family: Verdana, sans-serif;
+  /* font-family: Verdana, sans-serif; */
   font-size: 15px;
   line-height: 1.5
 }
@@ -355,7 +351,7 @@ a {
 }
 
 .w3-btn:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .w3-btn, .w3-button {
@@ -1353,7 +1349,7 @@ a {
 }
 
 .w3-button:hover {
-  color: #000!important;
+  color: white;
   background-color: #ccc!important
 }
 
@@ -1621,132 +1617,12 @@ a {
   color: #3a3a3a!important
 }
 
-.w3-border-amber, .w3-hover-border-amber:hover {
-  border-color: #ffc107!important
-}
-
-.w3-border-aqua, .w3-hover-border-aqua:hover {
-  border-color: #00ffff!important
-}
-
-.w3-border-blue, .w3-hover-border-blue:hover {
-  border-color: #2196F3!important
-}
-
-.w3-border-light-blue, .w3-hover-border-light-blue:hover {
-  border-color: #87CEEB!important
-}
-
-.w3-border-brown, .w3-hover-border-brown:hover {
-  border-color: #795548!important
-}
-
-.w3-border-cyan, .w3-hover-border-cyan:hover {
-  border-color: #00bcd4!important
-}
-
-.w3-border-blue-grey, .w3-hover-border-blue-grey:hover, .w3-border-blue-gray, .w3-hover-border-blue-gray:hover {
-  border-color: #607d8b!important
-}
-
-.w3-border-green, .w3-hover-border-green:hover {
-  border-color: #4CAF50!important
-}
-
-.w3-border-light-green, .w3-hover-border-light-green:hover {
-  border-color: #8bc34a!important
-}
-
-.w3-border-indigo, .w3-hover-border-indigo:hover {
-  border-color: #3f51b5!important
-}
-
-.w3-border-khaki, .w3-hover-border-khaki:hover {
-  border-color: #f0e68c!important
-}
-
-.w3-border-lime, .w3-hover-border-lime:hover {
-  border-color: #cddc39!important
-}
-
-.w3-border-orange, .w3-hover-border-orange:hover {
-  border-color: #ff9800!important
-}
-
-.w3-border-deep-orange, .w3-hover-border-deep-orange:hover {
-  border-color: #ff5722!important
-}
-
-.w3-border-pink, .w3-hover-border-pink:hover {
-  border-color: #e91e63!important
-}
-
-.w3-border-purple, .w3-hover-border-purple:hover {
-  border-color: #9c27b0!important
-}
-
-.w3-border-deep-purple, .w3-hover-border-deep-purple:hover {
-  border-color: #673ab7!important
-}
-
-.w3-border-red, .w3-hover-border-red:hover {
-  border-color: #f44336!important
-}
-
-.w3-border-sand, .w3-hover-border-sand:hover {
-  border-color: #fdf5e6!important
-}
-
-.w3-border-teal, .w3-hover-border-teal:hover {
-  border-color: #009688!important
-}
-
-.w3-border-yellow, .w3-hover-border-yellow:hover {
-  border-color: #ffeb3b!important
-}
-
-.w3-border-white, .w3-hover-border-white:hover {
-  border-color: #fff!important
-}
-
-.w3-border-black, .w3-hover-border-black:hover {
-  border-color: #000!important
-}
-
-.w3-border-grey, .w3-hover-border-grey:hover, .w3-border-gray, .w3-hover-border-gray:hover {
-  border-color: #9e9e9e!important
-}
-
-.w3-border-light-grey, .w3-hover-border-light-grey:hover, .w3-border-light-gray, .w3-hover-border-light-gray:hover {
-  border-color: #f1f1f1!important
-}
-
-.w3-border-dark-grey, .w3-hover-border-dark-grey:hover, .w3-border-dark-gray, .w3-hover-border-dark-gray:hover {
-  border-color: #616161!important
-}
-
-.w3-border-pale-red, .w3-hover-border-pale-red:hover {
-  border-color: #ffe7e7!important
-}
-
-.w3-border-pale-green, .w3-hover-border-pale-green:hover {
-  border-color: #e7ffe7!important
-}
-
-.w3-border-pale-yellow, .w3-hover-border-pale-yellow:hover {
-  border-color: #ffffcc!important
-}
-
-.w3-border-pale-blue, .w3-hover-border-pale-blue:hover {
-  border-color: #e7ffff!important
-}
-
 /* TC ADDED CSS */
 
 .landing-image {
+  border-radius: 2px;
   -webkit-filter: grayscale(1) brightness(0.85) contrast(1.05);
-  filter: grayscale(1) brightness(0.85) contrast(1.05);
-  border-radius: 1px;
+  filter: grayscale(1) brightness(1) contrast(1.05);
 }
 
 .skills {
@@ -1759,18 +1635,14 @@ a {
   flex: 1 1 80px;
 }
 
-.w3-ruby {
-  color: #CC0000;
+.CTA_highlight {
+  color: #6DCFCB;
 }
 
 form .w3-button {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   color: white;
-}
-
-.w3-button:hover {
-  color: rgb(214, 214, 214) !important;
-  background-color: transparent !important;
+  background: #22313f;
 }
 
 form .w3-button:hover i {
@@ -1788,15 +1660,13 @@ form .w3-button:hover i {
 }
 
 .top-work-skills section p {
+  /* lables */
   margin: .5rem;
   padding: .3rem;
-  background-color: rgb(33, 33, 33);
+  background-color: #1c1c1d;
   text-align: center;
-}
-
-.top-work-skills section button:hover {
-  color: white !important;
-  background-color: rgb(50, 50, 49) !important;
+  color: white;
+  border-radius: 2.5px;
 }
 
 #myNavbar div {
@@ -1821,13 +1691,33 @@ form .w3-button:hover i {
   transform: scale(1.5);
 }
 
-.portfolio-img {
-  -webkit-filter: grayscale(10%);
-  filter: grayscale(10%);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-}
-
 a {
   text-decoration: none;
+}
+
+.w3-hover-nav:hover {
+  color: #22313f!important;
+  background-color: #fff!important
+}
+
+.bold {
+  font-weight: bold
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+.notHtag {
+  font-family: "Raleway", sans-serif;
+}
+
+.download {
+  /* background: #b50000!important; */
+  color: white;
+  background: #6DCFCB;
+}
+
+.fa-download {
+  color: white;
 }

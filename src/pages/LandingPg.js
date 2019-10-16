@@ -1,35 +1,31 @@
 import React, { Component } from 'react';
 
 import avatarPic from '../images/randalyn-hill-1192073-unsplash.jpg'
-import landingPic from '../images/daniel-korpai-1124393-unsplash.jpg'
-import stitchMateCapstone from '../images/stitchMateCapstone.png'
-import reactColorPick from '../images/reactColorPick.png'
-import wordUp from '../images/wordUp.png'
-import schoolApp from '../images/schoolApp.png'
+import landingPic from '../images/drew-beamer-PL6ClUWwDEw-unsplash.jpg'
 
 
 class LandingPg extends Component {
   render() {
     return (
       <>
-        <section className="w3-black">
+        <section>
           {/* <!-- Icon Bar (Sidebar - hidden on small screens) --> */}
-          <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+          <nav className="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black ">
             {/* <!-- Avatar image in top left corner --> */}
             <img src={avatarPic} className="landing-image " alt="Macbook Laptop" style={{ width: "100%" }} />
-            <a href="#" className="w3-bar-item w3-button w3-padding-large w3-black">
+            <a href="#" className="w3-bar-item w3-button w3-padding-large w3-hover-nav">
               <i className="fa fa-home w3-xxlarge"></i>
               <p>HOME</p>
             </a>
-            <a href="#about" className="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <a href="#about" className="w3-bar-item w3-button w3-padding-large w3-hover-nav">
               <i className="fa fa-user w3-xxlarge"></i>
               <p>ABOUT</p>
             </a>
-            <a href="#photos" className="w3-bar-item w3-button w3-padding-large w3-hover-black">
-              <i className="far fa-gem w3-xxlarge"></i>
+            <a href="#portfolio" className="w3-bar-item w3-button w3-padding-large w3-hover-nav">
+              <i className="far fa-folder-open w3-xxlarge"></i>
               <p>PORTFOLIO</p>
             </a>
-            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <a href="#contact" className="w3-bar-item w3-button w3-padding-large w3-hover-nav">
               <i className="fa fa-envelope w3-xxlarge"></i>
               <p>CONTACT</p>
             </a>
@@ -38,7 +34,7 @@ class LandingPg extends Component {
 
           {/* <!-- Navbar on small screens (Hidden on medium and large screens) --> */}
           <div className="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-            <div className="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <div className="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
               <a href="#" className="w3-bar-item w3-button" >HOME</a>
               <a href="#about" className="w3-bar-item w3-button">ABOUT</a>
               <a href="#photos" className="w3-bar-item w3-button">PORTFOLIO</a>
@@ -49,33 +45,42 @@ class LandingPg extends Component {
           {/* <!-- Page Content --> */}
           <div className="w3-padding-large" id="main">
             {/* <!-- Header/Home --> */}
-            <header className="w3-container w3-padding-32 w3-center w3-black" id="home">
-              <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span>Tatyanna Cobb</h1>
-              <p>Full Stack Software Developer </p>
-              <img src={landingPic} alt="computer vibes" className="w3-image landing-image" width="992" height="1108" />
+            <header className="w3-container w3-padding-32 w3-center" id="home">
+              <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span><span className=
+                "CTA_highlight bold">Tatyanna</span> Cobb</h1>
+              <h2 className="CTA_highlight w3-xlarge">SOFTWARE QUALITY ASSURANCE ENGINEER</h2>
+              <img src={landingPic} alt="computer vibes" className="w3-image landing-image" />
             </header>
 
             {/* <!-- About Section --> */}
-            <div className="w3-content w3-text-grey w3-padding-64" id="about">
-              <h2 className="w3-text-light-grey">Tatyanna <span className="w3-text-grey">Cobb</span></h2>
+            <div className="w3-content w3-padding-64" id="about">
+              <h2 className=""><span className="CTA_highlight">Tatyanna</span> <span className="w3-text-grey">Cobb</span></h2>
               <hr className="width:200px w3-opacity" />
-              <p>I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusiasm for creating is coupled with an interest in startup culture and a relentless work ethic. As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
+              <p>
+                {/* I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusiasm for creating is coupled with an interest in startup culture and a relentless work ethic.  */}
+                As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
               </p>
+              <p className="" id="portfolio">
+                <a href="https://drive.google.com/file/d/1Xi7AcKrFvnRqLtdvreJqobKKWbIIz7HA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="w3-button w3-padding-large w3-section download">
+                  <i className="fa fa-download"></i> View my Resume
+                </button>
+                </a>
+              </p>
+
               <article className="skills">
                 <section className="top-tech-skills">
-                  <h3 className="w3-padding-16 w3-text-light-grey">Top Languages</h3>
+                  <h3 className="w3-padding-16">Top Languages</h3>
                   <p className="w3-wide w3-large ">CSS <i className="fab fa-css3-alt"></i></p>
                   <p className="w3-wide w3-large ">JavaScript ES6 <i className="fab fa-js"></i></p>
                   <p className="w3-wide w3-large ">React <i className="fab fa-react"></i></p>
-                  <p className="w3-wide w3-large  w3-large ">Ruby <i className="far fa-gem"></i></p>
-                  <p className="w3-wide w3-large ">PostgreSQL <i className="fas fa-database"></i></p>
-                  <p className="w3-wide w3-large ">Rails <i className="far fa-gem"></i></p>
+                  <p className="w3-wide w3-large ">SQL <i className="fas fa-database"></i></p>
+                  <p className="w3-wide w3-large  w3-large ">Python <i class="fab fa-python"></i></p>
+
                 </section>
 
                 {/* <!-- Soft Skills --> */}
                 <section className="top-soft-skills">
-                  <h3 className="w3-padding-16 w3-text-light-grey">Top Soft Skills</h3>
-                  <p className="w3-wide w3-large">Empathy <i className="fas fa-check"></i></p>
+                  <h3 className="w3-padding-16">Top Soft Skills</h3>
                   <p className="w3-wide w3-large">Problem Solving<i className="fas fa-check  w3-large "></i></p>
                   <p className="w3-wide w3-large ">Adaptability <i className="fas fa-check"></i></p>
                   <p className="w3-wide w3-large ">Leadership <i className="fas fa-check"></i></p>
@@ -84,7 +89,7 @@ class LandingPg extends Component {
                 </section>
               </article>
               <section className="top-work-skills">
-                <h3 className="w3-padding-16 w3-text-light-grey">Unicorn Skills</h3>
+                <h3 className="w3-padding-16">Bonus Skills</h3>
                 <section>
                   <p className="w3-wide">GIT</p>
                   <p className="w3-wide">GITHUB</p>
@@ -121,123 +126,60 @@ class LandingPg extends Component {
                 </section>
               </section>
 
-              <br />
-
-              <p className="w3-center">
-                <a href="https://drive.google.com/file/d/1Xi7AcKrFvnRqLtdvreJqobKKWbIIz7HA/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className="w3-button w3-light-grey w3-padding-large w3-section">
-                  <i className="fa fa-download w3-disabled"></i> Download Resume
-                </button>
-                </a>
-              </p>
               {/* <!-- End About Section --> */}
             </div>
 
-            <br />
-
             {/* <!-- Portfolio Section --> */}
-            <div className="w3-padding-64 w3-content" id="photos">
-              <h2 className="w3-text-light-grey">Portfolio</h2>
+            {/* <div className="w3-padding-64 w3-content" id="portfolio">
+              <h2 className="">Portfolio</h2>
               <hr style={{ width: "200px" }} className="w3-opacity" />
-              <p className="w3-text-grey">See below for my top completed projects. Check back in the future for new projects that will continually be added. </p>
-
-              {/* <!-- Portfolio Grid --> */}
-              <div className="w3-row-padding" style={{ margin: "0 -16px" }}>
-
-                <section className="top-work-skills w3-half">
-                  <img className="w3-padding portfolio-img w3-block " alt="StitchMate Capstone App" src={stitchMateCapstone} />
-                  <section>
-                    <button className="w3-button w3-ripple w3-margin  w3-padding-large w3-border">
-                      <a href="https://github.com/TatyCat/stitchmate" rel="noopener noreferrer" target="_blank" >
-                        VIEW THE CODE
-                      </a>
-                    </button>
-
-                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
-                      <a href="https://stitchmate.herokuapp.com/" rel="noopener noreferrer" target="_blank" >
-                        SEE IT LIVE
-                      </a>
-                    </button>
-                  </section>
-                </section>
-
-                <section className="top-work-skills w3-half">
-                  <img className="w3-padding portfolio-img w3-block " alt="WordUp App" src={wordUp} />
-                  <section>
-                    <button className="w3-button w3-ripple w3-margin  w3-padding-large w3-border">
-                      <a href="https://github.com/TatyCat/wordup" rel="noopener noreferrer" target="_blank" >
-                        VIEW THE CODE
-                    </a>
-                    </button>
-
-                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
-                      <a href="https://wordup-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
-                        SEE IT LIVE
-                    </a>
-                    </button>
-                  </section>
-                </section>
-
-                <section className="top-work-skills w3-half">
-                  <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={schoolApp} />
-                  <section>
-                    <button className="w3-button w3-ripple w3-margin w3-padding-large w3-border">
-                      <a href="https://github.com/TatyCat/schoolapp" rel="noopener noreferrer" target="_blank" >
-                        VIEW THE CODE
-                    </a>
-                    </button>
-
-                    <button className="w3-margin w3-ripple w3-button w3-padding-large w3-border">
-                      <a href="https://schoolapp-luckytaty.netlify.com/" rel="noopener noreferrer" target="_blank" >
-                        SEE IT LIVE
-                      </a>
-                    </button>
-                  </section>
-                </section>
-
-                <section className="top-work-skills w3-half">
-                  <img className="w3-padding portfolio-img w3-block " alt="ColorPick with React Hooks App" src={reactColorPick} />
-                  <section>
-                    <button className="w3-button w3-margin  w3-padding-large w3-border w3-ripple">
-                      <a href="https://github.com/TatyCat/colorpickrevampedhooks" rel="noopener noreferrer" target="_blank" >
-                        VIEW THE CODE
-                    </a>
-                    </button>
-
-                    <button className="w3-margin w3-button w3-padding-large w3-border w3-ripple">
-                      <a href="https://colorpickrevampedhooks-tatycat.netlify.com/" rel="noopener noreferrer" target="_blank" >
-                        SEE IT LIVE
-                      </a>
-                    </button>
-                  </section>
-                </section>
-
-              </div>
-              {/* <!-- End Portfolio Section & Grid--> */}
-            </div>
+            </div> */}
 
             {/* <!-- Contact Section --> */}
-            <div className="w3-padding-64 w3-content w3-text-grey" id="contact">
-              <h2 className="w3-text-light-grey">Contact Me</h2>
+            <div className="w3-padding-64 w3-content" id="contact">
+              <h2 className="">Contact Me</h2>
               <hr style={{ width: "200px" }} className="w3-opacity" />
 
-              <p>If you believe I would be a great fit with your company,<br /> let's get in touch:</p>
+              <p>If you agree that software should have reusable, extendable and sustainable test strategies,<br /> let's get in touch...</p>
 
               <form action="https://formspree.io/tatyanna.cobb@gmail.com" method="POST">
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name" /></p>
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Email" required name="_replyto" /></p>
-                <p><input className="w3-input w3-padding-16" type="text" placeholder="Subject" name="Subject" /></p>
-                <p><textarea className="w3-input w3-padding-16 text-area" type="text" placeholder="Message" required name="Message" /></p>
-                <p>
-                  <button className="w3-button w3-padding-large" type="submit" >
-                    <i className="fa fa-paper-plane w3-ruby"></i> SEND MESSAGE
+                <fieldset>
+                  <label for="Name"> Name</label>
+                  <input className="w3-input w3-padding-16" type="text" placeholder="" required=" " name="Name" />
+
+                  <p>
+                    <label for="Email">Email *</label>
+                    <input className="w3-input w3-padding-16" type="email" placeholder="" required name="_replyto" />
+                  </p>
+
+                  <p>
+                    <label for="Name">Subject</label>
+                    <input className="w3-input w3-padding-16" type="text" placeholder="" name="Subject" />
+                  </p>
+
+                  <p>
+                    <label for="Name">Talk to me *</label>
+                    <textarea className="w3-input w3-padding-16 text-area" type="text" placeholder="Message goes here" required="" name="Message" />
+                  </p>
+                  <p>
+                    <button className="w3-button" type="submit" >
+                      <i className="fa fa-paper-plane CTA_highlight"></i> SEND MESSAGE
                   </button>
-                </p>
+                  </p>
+                </fieldset>
               </form>
 
               <br />
 
               <div className="w3-section">
-                <div className="w3-row w3-center w3-padding-16 w3-section w3-border ">
+                <div className="w3-row w3-center w3-padding-16 w3-section notHtag">
+                  <div className="w3-quarter w3-section">
+                    <span className="w3-xlarge">
+                      <a href="https://www.linkedin.com/in/tatyannac/" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-linkedin-in w3-hover-opacity"></i></a>
+                    </span>
+                    <br />
+                    LinkedIn
+                  </div>
                   <div className="w3-quarter w3-section ">
                     <span className="w3-xlarge">
                       <a href="https://github.com/TatyCat" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-github w3-hover-opacity"></i></a>
@@ -252,13 +194,7 @@ class LandingPg extends Component {
                     <br />
                     Twitter
                   </div>
-                  <div className="w3-quarter w3-section">
-                    <span className="w3-xlarge">
-                      <a href="https://www.linkedin.com/in/tatyannac/" target="_blank" rel="noopener noreferrer" ><i className=" fab fa-linkedin-in w3-hover-opacity"></i></a>
-                    </span>
-                    <br />
-                    LinkedIn
-                  </div>
+
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
                       <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope"></i></a>
