@@ -49,7 +49,7 @@ class LandingPg extends Component {
               <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span><span className=
                 "CTA_highlight bold">Tatyanna</span> Cobb</h1>
               <h2 className="CTA_highlight w3-xlarge">SOFTWARE QUALITY ASSURANCE ENGINEER</h2>
-              <img src={landingPic} alt="computer vibes" className="w3-image landing-image" />
+              <img src={landingPic} alt="QA Tester" className="w3-image landing-image" width="992" height="1108" />
             </header>
 
             {/* <!-- About Section --> */}
@@ -57,7 +57,6 @@ class LandingPg extends Component {
               <h2 className=""><span className="CTA_highlight">Tatyanna</span> <span className="w3-text-grey">Cobb</span></h2>
               <hr className="width:200px w3-opacity" />
               <p>
-                {/* I have a deep love for creating beautiful and cleanly written web and mobile applications. My enthusiasm for creating is coupled with an interest in startup culture and a relentless work ethic.  */}
                 As a native of Tampa Bay, I enjoy attending tech and startup meetups. This  includes Code for Tampa Bay (a branch of Code for America), meetups sponsored by Suncoast Developers Guild, Startup Weekend, StartupBus 2018 and more. I continually seeking opportunities to grow and learn. When I am not off attending a meetup, programming or volunteering, you can find me enjoying a light hearted anime or in a library enjoying a non-fiction book.
               </p>
               <p className="" id="portfolio">
