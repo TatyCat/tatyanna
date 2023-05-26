@@ -1,26 +1,45 @@
 {
- "version": "0.1.0",
+ "version": "2.0.0",
  "command": "cmd",
- "args": ["/C"],
- "isShellCommand": true,
- "showOutput": "always",
- "suppressTaskName": true,
+"args": [
+    "/C"
+],
  "tasks": [
-     {
-         "taskName": "Chrome",
-         "args": ["start chrome -incognito \"${workspaceRoot}\\public\\index.html\""]
-     },
-     {
-         "taskName": "Firefox",
-         "args": ["start firefox -private-window \"${workspaceRoot}\\public\\index.html\""]
-     },
-     {
-         "taskName": "Edge",
-         "args": ["\"${workspaceRoot}\\public\\index.html\""]
-     },
-     {
-         "taskName":"Browser-Sync",
-         "args":["browser-sync start --server \"public\" --files \"public\""]
-     } 
-    ]
+    {
+        "label": "Chrome",
+        "type": "shell",
+        "args": [
+            "/C",
+            "start chrome -incognito \"${workspaceRoot}\\public\\index.html\""
+        ],
+        "problemMatcher": []
+    },
+    {
+        "label": "Firefox",
+        "type": "shell",
+        "args": [
+            "/C",
+            "start firefox -private-window \"${workspaceRoot}\\public\\index.html\""
+        ],
+        "problemMatcher": []
+    },
+    {
+        "label": "Edge",
+        "type": "shell",
+        "args": [
+            "/C",
+            "\"${workspaceRoot}\\public\\index.html\""
+        ],
+        "problemMatcher": []
+    },
+    {
+        "label": "Browser-Sync",
+        "type": "shell",
+        "args": [
+            "/C",
+            "browser-sync start --server \"public\" --files \"public\""
+        ],
+        "problemMatcher": []
+    }
+]
 }

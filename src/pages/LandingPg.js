@@ -48,7 +48,7 @@ class LandingPg extends Component {
             <header className="w3-container w3-padding-32 w3-center" id="home">
               <h1 className="w3-jumbo w3-center"><span className="w3-hide-small">I am </span><span className=
                 "CTA_highlight bold">Tatyanna</span> Cobb</h1>
-              <h2 className="CTA_highlight w3-xlarge">SOFTWARE QUALITY ASSURANCE TESTER</h2>
+              <h2 className="CTA_highlight w3-xlarge">SOFTWARE QUALITY ASSURANCE ENGINEER</h2>
               <img src={landingPic} alt="QA Tester" className="w3-image landing-image" width="990" height="700" />
             </header>
 
