@@ -92,20 +92,12 @@ class LandingPg extends Component {
                 <section>
                   <p className="w3-wide">GIT</p>
                   <p className="w3-wide">GITHUB</p>
-                  <p className="w3-wide">AXIOS</p>
-                  <p className="w3-wide">FETCH</p>
                   <p className="w3-wide">MYSQL</p>
-                  <p className="w3-wide">ACTIVE RECORD</p>
-                  <p className="w3-wide">FLASK</p>
-                  <p className="w3-wide">DJANGO</p>
                   <p className="w3-wide">PYTHON</p>
                   <p className="w3-wide">RESPONSIVE DESIGN</p>
                   <p className="w3-wide">FLEXBOX</p>
                   <p className="w3-wide">NPM</p>
-                  <p className="w3-wide">YARN</p>
                   <p className="w3-wide">REST API</p>
-                  <p className="w3-wide">PGCLI</p>
-                  <p className="w3-wide">REACT ROUTER</p>
                   <p className="w3-wide">WEB DEVELOPMENT</p>
                   <p className="w3-wide">IOS DEVELOPMENT</p>
                   <p className="w3-wide">REACT NATIVE</p>
@@ -114,9 +106,10 @@ class LandingPg extends Component {
                   <p className="w3-wide">JAVASCRIPT</p>
                   <p className="w3-wide">SLACK</p>
                   <p className="w3-wide">DISCORD</p>
-                  <p className="w3-wide">SINATRA</p>
+                  <p className="w3-wide">TEAMS</p>
                   <p className="w3-wide">POSTMAN</p>
                   <p className="w3-wide">WIREFRAMING</p>
+                  <p className="w3-wide">USER EXPERIENCE</p>
                   <p className="w3-wide">NODE</p>
                   <p className="w3-wide">SKETCH</p>
                   <p className="w3-wide">PHOTOSHOP</p>
