@@ -181,14 +181,6 @@ class LandingPg extends Component {
                   </div>
                   <div className="w3-quarter w3-section">
                     <span className="w3-xlarge">
-                      <a href="https://twitter.com/DevTaty" target="_blank" rel="noopener noreferrer" ><i className="fab fa-twitter w3-hover-opacity"></i></a>
-                    </span>
-                    <br />
-                    Twitter
-                  </div>
-
-                  <div className="w3-quarter w3-section">
-                    <span className="w3-xlarge">
                       <a href="mailto:tatyanna.cobb@gmail.com" target="_blank" rel="noopener noreferrer" ><i className="w3-hover-opacity fas fa-envelope"></i></a>
                     </span>
                     <br />
