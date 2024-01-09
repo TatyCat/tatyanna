@@ -110,17 +110,15 @@ button{
     /* height: 90vw; */
     overflow: hidden;
     width:100%;
-    background-color: rgb(75, 74, 67) !important;
+    /* background-color: rgb(75, 74, 67) !important; */
+    background-color: rgb(56, 56, 56);
 }
 
 img.heroImg{
-    float: left;
     margin-left:-15% !important;
     z-index: 1;
     position: absolute; 
-    /* top: 10;  */
-    /* left: 0; */
-    width: 100%; 
+    width: 90%; 
     object-fit: cover;
     height: 80vh; 
     display: block;
@@ -155,14 +153,21 @@ img.heroImg{
     font-weight: 401;
     font-size: 1.2em;
 }
+.contactButtons{
+    margin: 10px 10px 10px 0px;
+}
+
+.footer a, .links{
+    border-bottom: thin solid #ffc400 ;
+}
 
 .footer{
     background-color: rgb(56, 56, 56);   
 }
 
-.footer p { 
-    font-size: 20px !important; 
-    color: red!;
+.footer div p { 
+    font-size: 16px !important; 
+    color: red;
 }
 
 @media screen and (max-width: 768px) {
