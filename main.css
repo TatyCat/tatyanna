@@ -6,13 +6,20 @@ body * {
     font-feature-settings: 'liga' 1, 'calt' 1; /* Inter fix for Chrome */
     font-weight: 500;
 }
+::selection {
+    background: #ffc40080; /* WebKit/Blink Browsers */
+  }
+  ::-moz-selection {
+    background: #ffc40080; /* Gecko Browsers */
+  }
 
 .navbar {
     background-color: rgb(56, 56, 56);    
 }
 .navbar a, p{
     color: white !important;
-    font-weight: 500;
+    font-weight: 440;
+    font-size: 1.24rem;
 }
 
 .navbar-item p{ 
@@ -51,7 +58,6 @@ p.navbar-item{
 button{
     /* font-weight: 600 !important; */
     font-size: 1.1em;
-
 }
 
 .buttonCTA{
@@ -94,25 +100,56 @@ button{
 }
 
 .button.is-primary.is-inverted.is-outlined.is-loading:hover::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-inverted.is-outlined.is-loading:focus::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
-border-color: transparent transparent #ffc400 #ffc400 !important;
+    border-color: transparent transparent #ffc400 #ffc400 !important;
 }
   /* Button End */
 
-.heroImage{
-    position:absolute; top: 0; right: 0;width: 50%; height: 20vw; object-fit: cover;
+.hero{ 
+    position: relative;
+    display: flex;
+    /* height: 90vw; */
+    overflow: hidden;
+    width:100%;
+    background-color: rgb(75, 74, 67) !important;
 }
 
-.heroText {
-    /* position: relative;z-index: 2; max-width: none; width: 100%; margin: 0; display: block; */
+img.heroImg{
+    float: left !important;
+    margin-left:-15% !important;
+    z-index: 1;
+    position: absolute; 
+    /* top: 10;  */
+    /* left: 0; */
+    width: 100%; 
+    object-fit: cover;
+    height: 80vh; 
+    display: block;
+    object-position: left top;
+    border-radius: 28%;
 }
 
-.heroText h1{
+.heroTextSection {
+    /* position: absolute; */
+    /* position: relative; */
+    z-index: 2; 
+    max-width: 80%; 
+    margin-left: 49px; 
+    padding-top: 7rem;
+    display: block;
+    margin-bottom: 4rem;
+    /* padding-bottom: 14rem; */
+}
+
+.heroTextSection h1{
     font-weight: 800 !important;
     color: white !important;
-    font-size: 3em;
+    font-size: 3.6em;
+    line-height: 70px;
+    /* margin: 40px 0; */
+    /* margin-bottom: 3vw; */
 }
 
-.heroText h2{
+.heroTextSection h2{
     font-weight: 600;
     font-size: 1.7em;
 }
@@ -123,5 +160,17 @@ border-color: transparent transparent #ffc400 #ffc400 !important;
 }
 
 .footer{
-    background-color: rgb(56, 56, 56);    
+    background-color: rgb(56, 56, 56);   
+}
+
+.footer p { 
+    font-size: 20px !important; 
+    color: red!;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a, p{
+        font-weight: 400;
+        font-size: .8rem;
+    }
 }
