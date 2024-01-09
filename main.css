@@ -172,7 +172,7 @@ img.heroImg{
 @media screen and (max-width: 768px) {
     .navbar a, p{
         font-weight: 400;
-        font-size: .8em!important;
+        font-size: .9em!important;
     }
     .heroTextSection h1{
         font-size: 2.5em;
@@ -214,7 +214,7 @@ img.heroImg{
         display: inline-block;
         vertical-align: top;
         align-content: start;
-        padding-right: 0px;
+        padding-right: 0px !important;
         margin-bottom: 0;
     }
     input[type='checkbox']{ 
