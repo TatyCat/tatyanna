@@ -114,7 +114,7 @@ button{
 }
 
 img.heroImg{
-    float: left !important;
+    float: left;
     margin-left:-15% !important;
     z-index: 1;
     position: absolute; 
@@ -129,15 +129,12 @@ img.heroImg{
 }
 
 .heroTextSection {
-    /* position: absolute; */
-    /* position: relative; */
     z-index: 2; 
     max-width: 80%; 
     margin-left: 49px; 
     padding-top: 7rem;
     display: block;
     margin-bottom: 4rem;
-    /* padding-bottom: 14rem; */
 }
 
 .heroTextSection h1{
@@ -171,6 +168,27 @@ img.heroImg{
 @media screen and (max-width: 768px) {
     .navbar a, p{
         font-weight: 400;
-        font-size: .8rem;
+        font-size: .8em!important;
     }
+    .heroTextSection h1{
+        font-size: 2.5em;
+    }
+    .heroTextSection h2{
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+    img.heroImg{
+        height: 100vh;
+        border-radius: 0%;
+        max-width: 110%;
+        margin: 0px 0px;
+        background-size: cover;
+        display: inline;
+        top: 0;
+        right: 0;
+    }
+    .buttonCTA{
+        margin-bottom: 1rem;
+    }
+    
 }
