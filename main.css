@@ -1,7 +1,10 @@
 @import 'node_modules/bulma/css/bulma.css';
 
-body{
+body * { 
     color: white !important;
+    font-family: 'DM Sans', 'Inter', sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* Inter fix for Chrome */
+    font-weight: 500;
 }
 
 .navbar {
@@ -9,6 +12,7 @@ body{
 }
 .navbar a, p{
     color: white !important;
+    font-weight: 500;
 }
 
 .navbar-item p{ 
@@ -28,15 +32,11 @@ a.navbar-item:active{
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffc400;
     -webkit-text-fill-color: rgb(110, 110, 110);
-    font-weight: 700;
+    font-weight: 400;
 }
 p.navbar-item{
     font-stretch: 120%;
     font-size: larger;
-}
-
-.heroText h1{
-    color: white !important;
 }
 
 .backgroundColor1{
@@ -44,22 +44,26 @@ p.navbar-item{
 }
 
 .backgroundColor2{
-    background-color: darkgrey;
+    background-color: rgb(56, 56, 56);
 }
 
 /* Button Color Override */
 button{
-    font-weight: 600 !important;
+    /* font-weight: 600 !important; */
+    font-size: 1.1em;
+
 }
 
 .buttonCTA{
     background-color: #ffc400 !important;
+    text-shadow: 0 .6px #dbb22a;
+    font-weight: 550;
 }
 
 .button.is-primary:hover, .button.is-primary.is-hovered {
     background-color: #f2be14 !important;
+    opacity: 0.80;
 }
-
 
 .button.is-primary:active, .button.is-primary.is-active {
     background-color: #ffc400 !important;
@@ -72,8 +76,9 @@ button{
 }
   
 .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
-    background-color: #f2be14 !important;
+    background-color:  rgb(100, 100, 100) !important;
     border-color: #f2be14 !important;
+    opacity: 0.75;
 }
   
 .button.is-primary.is-outlined.is-loading::after {
@@ -98,7 +103,23 @@ border-color: transparent transparent #ffc400 #ffc400 !important;
 }
 
 .heroText {
-    position: relative;z-index: 2; max-width: none; width: 100%; margin: 0; display: block;
+    /* position: relative;z-index: 2; max-width: none; width: 100%; margin: 0; display: block; */
+}
+
+.heroText h1{
+    font-weight: 800 !important;
+    color: white !important;
+    font-size: 3em;
+}
+
+.heroText h2{
+    font-weight: 600;
+    font-size: 1.7em;
+}
+
+.experienceName{
+    font-weight: 401;
+    font-size: 1.2em;
 }
 
 .footer{
