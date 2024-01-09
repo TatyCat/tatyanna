@@ -167,7 +167,6 @@ img.heroImg{
 
 .footer div p { 
     font-size: 16px !important; 
-    color: red;
 }
 
 @media screen and (max-width: 768px) {
@@ -182,18 +181,85 @@ img.heroImg{
         font-weight: 600;
         font-size: 1.2em;
     }
+    
     img.heroImg{
         height: 100vh;
         border-radius: 0%;
-        max-width: 110%;
-        margin: 0px 0px;
+        max-width: 100%;
+        margin: 0px 0px !important;
         background-size: cover;
-        display: inline;
         top: 0;
         right: 0;
+        left: 0;
+        position: absolute; 
+        width: 100%; 
+        object-fit: cover;
+        display: block;
+        object-position: center;
     }
+
+    .heroTextSection {
+    z-index: 2; 
+    max-width: 80%; 
+    margin-left: 5px; 
+    padding-top: 1rem;
+    display: block;
+    margin-bottom: 4rem;
+}
     .buttonCTA{
         margin-bottom: 1rem;
     }
-    
+
+    .mobileMenu, .navbar-brand{
+        display: inline-block;
+        vertical-align: top;
+        align-content: start;
+        padding-right: 0px;
+        margin-bottom: 0;
+    }
+    input[type='checkbox']{ 
+        display: none; 
+    } 
+    .lbl-toggle { 
+        /* display: block;  */
+        /* display: inline; */
+        text-align: left; 
+        padding: 1rem; 
+        transition: all 0.25s ease-out; 
+    } 
+    .lbl-toggle::before{ 
+        content: ' '; 
+        /* display: inline-block;  */
+        /* display: inline; */
+        vertical-align: middle; 
+        margin-right: .7rem; 
+        transform: translateY(-2px); 
+        transition: transform .2s ease-out; 
+    } 
+    .toggle:checked+.lbl-toggle::before{ 
+        transform: rotate(90deg) translateX(-3px); 
+    } 
+    .collapsible-content { 
+        max-height: 0px; 
+        overflow: hidden; 
+        transition: max-height .25s ease-in-out; 
+    } 
+    .toggle:checked + .lbl-toggle + .collapsible-content { 
+        max-height: 350px; 
+    } 
+    .toggle:checked+.lbl-toggle { 
+        /* border-bottom-right-radius: 0; 
+        border-bottom-left-radius: 0;  */
+    } 
+    .collapsible-content .content-inner { 
+        /* border-bottom-left-radius: 7px; 
+        border-bottom-right-radius: 7px;  */
+        padding: .5rem 1rem; 
+    } 
+    .collapsible-content p { 
+        margin-bottom: 0; 
+    }
+
 }
+
+
