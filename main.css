@@ -1,0 +1,106 @@
+@import 'node_modules/bulma/css/bulma.css';
+
+body{
+    color: white !important;
+}
+
+.navbar {
+    background-color: rgb(56, 56, 56);    
+}
+.navbar a, p{
+    color: white !important;
+}
+
+.navbar-item p{ 
+    font-size: 1.3em;
+}
+
+a.navbar-item:hover{ 
+    background-color:rgb(56, 56, 56) !important;
+    border-bottom: thick solid #ffc400 !important;
+    color: #ffc400 !important;
+}
+a.navbar-item:active{ 
+    color: rgb(56, 56, 56)  !important;
+}
+
+.nameOutline {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffc400;
+    -webkit-text-fill-color: rgb(110, 110, 110);
+    font-weight: 700;
+}
+p.navbar-item{
+    font-stretch: 120%;
+    font-size: larger;
+}
+
+.heroText h1{
+    color: white !important;
+}
+
+.backgroundColor1{
+    background-color: rgb(110, 110, 110);
+}
+
+.backgroundColor2{
+    background-color: darkgrey;
+}
+
+/* Button Color Override */
+button{
+    font-weight: 600 !important;
+}
+
+.buttonCTA{
+    background-color: #ffc400 !important;
+}
+
+.button.is-primary:hover, .button.is-primary.is-hovered {
+    background-color: #f2be14 !important;
+}
+
+
+.button.is-primary:active, .button.is-primary.is-active {
+    background-color: #ffc400 !important;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #ffc400 !important; 
+    color: #ffc400;
+}
+  
+.button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
+    background-color: #f2be14 !important;
+    border-color: #f2be14 !important;
+}
+  
+.button.is-primary.is-outlined.is-loading::after {
+    border-color: transparent transparent #ffc400 #ffc400 !important;
+}
+  
+.button.is-primary.is-inverted {
+    color: #ffc400 !important;
+}
+
+.button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined.is-hovered, .button.is-primary.is-inverted.is-outlined:focus, .button.is-primary.is-inverted.is-outlined.is-focused {
+    color: white !important;
+}
+
+.button.is-primary.is-inverted.is-outlined.is-loading:hover::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-inverted.is-outlined.is-loading:focus::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
+border-color: transparent transparent #ffc400 #ffc400 !important;
+}
+  /* Button End */
+
+.heroImage{
+    position:absolute; top: 0; right: 0;width: 50%; height: 20vw; object-fit: cover;
+}
+
+.heroText {
+    position: relative;z-index: 2; max-width: none; width: 100%; margin: 0; display: block;
+}
+
+.footer{
+    background-color: rgb(56, 56, 56);    
+}
