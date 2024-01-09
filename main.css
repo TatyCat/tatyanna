@@ -158,9 +158,6 @@ img.heroImg{
 }
 
 /* Project Card Start */
-#Projects a {
-}
-
 .cards{
     grid-column: 2 / span 12;
     display: grid;
@@ -340,6 +337,9 @@ img.heroImg{
     } 
     .collapsible-content p { 
         margin-bottom: 0; 
+    }
+    #Projects h1 a {
+        margin-left: initial;
     }
 
 }
