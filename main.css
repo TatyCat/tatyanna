@@ -47,7 +47,8 @@ p.navbar-item{
 }
 
 .backgroundColor1{
-    background-color: rgb(110, 110, 110);
+    /* background-color: rgb(110, 110, 110);  */
+    background-color: rgb(99, 99, 103);
 }
 
 .backgroundColor2{
@@ -56,7 +57,6 @@ p.navbar-item{
 
 /* Button Color Override */
 button{
-    /* font-weight: 600 !important; */
     font-size: 1.1em;
 }
 
@@ -110,8 +110,8 @@ button{
     /* height: 90vw; */
     overflow: hidden;
     width:100%;
-    /* background-color: rgb(75, 74, 67) !important; */
-    background-color: rgb(56, 56, 56);
+    /* background-color: rgb(75, 74, 67); */
+    background-color: #505050;
 }
 
 img.heroImg{
@@ -192,7 +192,8 @@ img.heroImg{
     grid-column-end: span 4;
     display: flex;
     flex-direction: column;
-    background-color: rgb(110, 110, 110);
+    /* background-color: rgb(110, 110, 110); */
+    background-color: rgb(99, 99, 103);
     cursor: pointer;
     transition: all 0.3s ease 0s;
     box-sizing: border-box;
@@ -264,6 +265,11 @@ img.heroImg{
     }
   }
 /* Project CARDS END */
+#Contact{
+    background-image: url('./images/HeroImg.jpg');
+    background-position:bottom;
+    background-size: cover;
+}
 
 #Contact > p {
     font-size: 1.5rem !important; 
@@ -279,6 +285,9 @@ img.heroImg{
 .footer{
     background-color: rgb(56, 56, 56);   
     padding-bottom: 3.6em;
+    /* background-image: url('./images/HeroImg.jpg');
+    background-position:bottom;
+    background-size: cover; */
 }
 
 .footer div p { 
@@ -299,7 +308,6 @@ img.heroImg{
         font-weight: 600;
         font-size: 1.2em;
     }
-    
     img.heroImg{
         height: 100vh;
         border-radius: 0%;
@@ -315,7 +323,6 @@ img.heroImg{
         display: block;
         object-position: center;
     }
-
     .heroTextSection {
     z-index: 2; 
     max-width: 80%; 
@@ -323,11 +330,10 @@ img.heroImg{
     padding-top: 1rem;
     display: block;
     margin-bottom: 4rem;
-}
+    }
     .buttonCTA{
         margin-bottom: 1rem;
     }
-
     .mobileMenu, .navbar-brand{
         display: inline-block;
         vertical-align: top;
@@ -362,7 +368,6 @@ img.heroImg{
     .toggle:checked + .lbl-toggle + .collapsible-content { 
         max-height: 350px; 
     } 
-    
     .collapsible-content .content-inner { 
         padding: .5rem 1rem; 
     } 
@@ -373,9 +378,8 @@ img.heroImg{
         margin-left: initial;
     }
     h1 .headerCTAButton{
-     margin: 1em;
+        margin: 1em;
     }
-    
     .contactButtonsDiv{
         display: flex;
         justify-content: center;
