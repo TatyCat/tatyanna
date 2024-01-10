@@ -174,8 +174,9 @@ img.heroImg{
     font-weight: 900;
     font-stretch: extra-expanded !important;
     font-size: 1.4em !important;
+    display:inline-block;
+    margin: .8rem 0;
 }
-
 
 
 /* Project CARD START */
@@ -264,8 +265,12 @@ img.heroImg{
   }
 /* Project CARDS END */
 
+#Contact > p {
+    font-size: 1.5rem !important; 
+}
+
 .contactButtonsDiv{
-    margin-top: 3vh;
+    margin-top: .3vh;
 }
 .footer a, .links{
     border-bottom: thin solid #ffc400 ;
