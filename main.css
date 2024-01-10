@@ -159,6 +159,11 @@ img.heroImg{
     margin-left: 1rem;
 }
 
+.aboutMeText{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
 .jobTitle{
     font-weight: 700;
     color: rgb(226, 232, 240);
@@ -224,7 +229,7 @@ img.heroImg{
   
 .cardTitle {
     margin-bottom: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: expanded;
     text-align: center;
     text-shadow: 2px 2px 4px rgb(90, 90, 90);
@@ -272,7 +277,7 @@ img.heroImg{
 }
 
 #Contact > p {
-    font-size: 1.5rem !important; 
+    font-size: 1.45rem !important; 
 }
 
 .contactButtonsDiv{
