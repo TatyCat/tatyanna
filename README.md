@@ -5,4 +5,4 @@ Currently Seeking: Software Quality Assurance Engineer positions.
 tatyannacobb.com/
 
 ### Summary :sparkles:
-The official portfolio website of Tatyanna Cobb, Software QA Engineer with full-stack development experience. The portfolio showcases Tatyanna's skills, top used languaes, soft skills, resume download, links to high performing projects and contact information. 
+The official portfolio website of Tatyanna Cobb, Software QA Engineer with full-stack development experience. The portfolio showcases Tatyanna's skills, projects, resume, and links to contact information. 
