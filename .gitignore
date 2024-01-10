@@ -2,7 +2,7 @@
 
 # dependencies
 # /node_modules
-/node_modules/bulma/sass
+# /node_modules/bulma/sass
 # .package-lock.json
 /.pnp
 .pnp.js
