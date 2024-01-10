@@ -1,5 +1,5 @@
 
-/* @import './node_modules/bulma/css/bulma.css';  */
+@import './node_modules/bulma/css/bulma.css'; 
 
 body * { 
     color: white !important;
