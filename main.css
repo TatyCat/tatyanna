@@ -18,13 +18,17 @@ body * {
     background: #ffc40080; /* Gecko Browsers */
   }
 
+p {
+    color: white !important;
+    font-weight: 440;
+}
+
 .navbar {
     background-color: rgb(56, 56, 56);    
 }
-.navbar a, p{
-    color: white !important;
-    font-weight: 440;
-    font-size: 1.24rem;
+.navbar a{
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
 .navbar-item p{ 
@@ -316,7 +320,8 @@ img.heroImg{
 @media screen and (max-width: 768px) {
     .navbar a, p{
         font-weight: 400;
-        font-size: .9em!important;
+        /* font-size: .9em!important; */
+    font-size: 2.8vw !important;
     }
     .heroTextSection h1{
         font-size: 2.5em;
