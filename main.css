@@ -140,8 +140,6 @@ img.heroImg{
     color: white !important;
     font-size: 3.6em;
     line-height: 70px;
-    /* margin: 40px 0; */
-    /* margin-bottom: 3vw; */
 }
 
 .heroTextSection h2{
@@ -151,13 +149,34 @@ img.heroImg{
 
 .experienceName{
     font-weight: 401;
-    font-size: 1.2em;
+    font-size: 2.4vh;
 }
 .contactButtons{
     margin: 10px 10px 10px 0px;
 }
 
-/* Project Card Start */
+.headerButton{
+    margin-left: 1rem;
+}
+
+.jobTitle{
+    font-weight: 700;
+    color: rgb(226, 232, 240);
+}
+
+.experienceName h1{
+    margin-right: 15em !important;
+    margin-top: 4em !important;
+}
+
+.contactTextCTA{
+    text-shadow: 2px 2px 4px rgb(90, 90, 90);
+    font-weight: 900;
+    font-stretch: extra-expanded !important;
+    font-size: 1.4em !important;
+}
+
+/* Project CARD START */
 .cards{
     grid-column: 2 / span 12;
     display: grid;
@@ -166,28 +185,28 @@ img.heroImg{
     align-items: baseline;
   }
   
-  .card {
+.card {
     grid-column-end: span 4;
     display: flex;
     flex-direction: column;
-    background-color: #39393b;
+    background-color: rgb(110, 110, 110);
     cursor: pointer;
     transition: all 0.3s ease 0s;
     box-sizing: border-box;
   }
   
-  .card:hover {
+.card:hover {
     transform: translateY(-7px);
   }
   
-  .cardImgContainer {
+.cardImgContainer {
     width: 100%;
     padding-top: 56.25%;
     overflow: hidden;
     position: relative;
   }
   
-  .cardImgContainer img {
+.cardImgContainer img {
     width: 100%;
     position: absolute;
     top: 50%;
@@ -195,15 +214,23 @@ img.heroImg{
     transform: translate(-50%, -50%);
   }
   
-  .card__content {
+.card__content {
     padding: 20px;
   }
   
-  .cardTitle {
+.cardTitle {
     margin-bottom: 20px;
+    font-weight: 600;
+    font-stretch: expanded;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(90, 90, 90);
+}
+
+.pendingUpdate{
+    pointer-events:none;
+    opacity: .4;
   }
 
-  
   @media only screen and (max-width: 1000px) {
     .card {
       grid-column-end: span 6;
@@ -241,6 +268,7 @@ img.heroImg{
 
 .footer{
     background-color: rgb(56, 56, 56);   
+    padding-bottom: 3.6em;
 }
 
 .footer div p { 
@@ -248,6 +276,7 @@ img.heroImg{
 }
 
 
+/* MOBILE Start */ 
 @media screen and (max-width: 768px) {
     .navbar a, p{
         font-weight: 400;
@@ -300,16 +329,13 @@ img.heroImg{
         display: none; 
     } 
     .lbl-toggle { 
-        /* display: block;  */
-        /* display: inline; */
         text-align: left; 
         padding: 1rem; 
         transition: all 0.25s ease-out; 
     } 
     .lbl-toggle::before{ 
         content: ' '; 
-        /* display: inline-block;  */
-        /* display: inline; */
+      
         vertical-align: middle; 
         margin-right: .7rem; 
         transform: translateY(-2px); 
@@ -326,13 +352,8 @@ img.heroImg{
     .toggle:checked + .lbl-toggle + .collapsible-content { 
         max-height: 350px; 
     } 
-    .toggle:checked+.lbl-toggle { 
-        /* border-bottom-right-radius: 0; 
-        border-bottom-left-radius: 0;  */
-    } 
+    
     .collapsible-content .content-inner { 
-        /* border-bottom-left-radius: 7px; 
-        border-bottom-right-radius: 7px;  */
         padding: .5rem 1rem; 
     } 
     .collapsible-content p { 
@@ -341,7 +362,16 @@ img.heroImg{
     #Projects h1 a {
         margin-left: initial;
     }
-
+    h1 .headerCTAButton{
+     margin: 1em;
+    }
+    
+    .contactButtonsDiv{
+        display: flex;
+        justify-content: center;
+    }
+    .pendingUpdate{
+        display: none;
+    }
 }
-
 
