@@ -1,4 +1,6 @@
+/* @import './node_modules/bulma/css/bulma.css'; */
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 
 body * { 
     color: white !important;
@@ -41,6 +43,13 @@ a.navbar-item:active{
     -webkit-text-fill-color: rgb(110, 110, 110);
     font-weight: 400;
 }
+p.nameOutline {
+    align-items: stretch;
+  display: flex;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+}
+
 p.navbar-item{
     font-stretch: 120%;
     font-size: larger;
@@ -347,7 +356,7 @@ img.heroImg{
         margin-bottom: 0;
     }
     input[type='checkbox']{ 
-        display: none; 
+        display: none !important; 
     } 
     .lbl-toggle { 
         text-align: left; 
@@ -356,7 +365,6 @@ img.heroImg{
     } 
     .lbl-toggle::before{ 
         content: ' '; 
-      
         vertical-align: middle; 
         margin-right: .7rem; 
         transform: translateY(-2px); 
@@ -394,3 +402,10 @@ img.heroImg{
     }
 }
 
+/* Overide Media Settings for Navbar */
+@media screen and (max-width: 768px) {
+    .media-content {
+      /* overflow-x: auto; */
+      overflow-x: visible !important;
+    }
+}
