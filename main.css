@@ -325,6 +325,9 @@ img.heroImg{
         font-weight: 600;
         font-size: 1.2em;
     }
+    .heroTextSection button {
+        font-size: 2.6vh;
+    }
     img.heroImg{
         height: 100vh;
         border-radius: 0%;
@@ -350,6 +353,7 @@ img.heroImg{
     }
     .buttonCTA{
         margin-bottom: 1rem;
+        font-size: 2.6vh;
     }
     .mobileMenu, .navbar-brand{
         display: inline-block;
@@ -394,7 +398,10 @@ img.heroImg{
         margin-left: initial;
     }
     h1 .headerCTAButton{
-        margin: 1em;
+        margin-top: 1rem;
+        display: block;
+        /* font-size: 1.2em; */
+        font-size: 2.6vh;
     }
     .contactButtonsDiv{
         display: flex;
@@ -403,6 +410,13 @@ img.heroImg{
     .pendingUpdate{
         display: none;
     }
+    .media-content {
+        overflow-x: none;      
+    }
+
+    div.navbar-dropdown > p, .content-inner > a {
+        font-size: 2.8vh !important;
+      }
 }
 
 /* Overide Media Settings for Navbar */
@@ -414,11 +428,6 @@ collapsible
 lbl-toggle
 collapsible-content
 content-inner */
-
-@media screen and (max-width: 768px) {
-    .media-content {
-        overflow-x: none;      }
-}
 
 @media screen and (min-width: 481px) {
     .navbar-menu{
@@ -493,7 +502,6 @@ content-inner */
       border-bottom-right-radius: 6px;
       box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
       display: none;
-      font-size: 1rem;
       left: 0;
       min-width: 100%;
       position: absolute;
