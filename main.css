@@ -176,6 +176,8 @@ img.heroImg{
     font-size: 1.4em !important;
 }
 
+
+
 /* Project CARD START */
 .cards{
     grid-column: 2 / span 12;
@@ -260,8 +262,11 @@ img.heroImg{
       grid-column-end: span 6;
     }
   }
-/* Projects Card End */
+/* Project CARDS END */
 
+.contactButtonsDiv{
+    margin-top: 3vh;
+}
 .footer a, .links{
     border-bottom: thin solid #ffc400 ;
 }
