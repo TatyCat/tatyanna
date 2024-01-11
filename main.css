@@ -362,6 +362,9 @@ img.heroImg{
         padding-right: 0px !important;
         margin-bottom: 0;
     }
+    .fa-bars{
+        padding-top: .9rem
+    }
     input[type='checkbox']{ 
         display: none !important; 
     } 
