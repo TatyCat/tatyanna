@@ -28,11 +28,7 @@ p {
 }
 .navbar a{
     font-size: 1.25em;
-    font-weight: 300;
-}
-
-.navbar-item p{ 
-    font-size: 1.3em;
+    font-weight: 600;
 }
 
 a.navbar-item:hover{ 
@@ -40,21 +36,34 @@ a.navbar-item:hover{
     border-bottom: thick solid #ffc400 !important;
     color: #ffc400 !important;
 }
+
 a.navbar-item:active{ 
     color: rgb(56, 56, 56)  !important;
 }
 
-.nameOutline {
-    -webkit-text-stroke-width: 1px;
+.navContactIcons a{
+    padding: 0 .3rem;
+    font-size: 1.25em;
+    display: inline-block;
+    align-self: flex-end;
+    padding: 16px 8px;
+    color: #f8f8ff !important;
+}
+
+span.nameOutline {
+    -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #ffc400;
     -webkit-text-fill-color: rgb(110, 110, 110);
-    font-weight: 400;
+    font-weight: 300;
+    /* background-color: coral; */
 }
-p.nameOutline {
-    align-items: stretch;
-  display: flex;
-  flex-shrink: 0;
-  min-height: 3.25rem;
+
+p.navbar-brand{
+    font-size: 1.7em;
+    font-weight: 900;
+    /* font-size: 1rem; */
+    font-size: 1.5rem !important;
+    /* background-color: coral; */
 }
 
 p.navbar-item{
@@ -119,15 +128,14 @@ p.navbar-item{
 .hero{ 
     position: relative;
     display: flex;
-    /* height: 90vw; */
     overflow: hidden;
     width:100%;
-    /* background-color: rgb(75, 74, 67); */
-    background-color: #505050;
+    background-color: #383838;
+    /* background-color: #505050; */
 }
 
 img.heroImg{
-    margin-left:-15% !important;
+    margin-left:-10% !important;
     z-index: 1;
     position: absolute; 
     width: 90%; 
@@ -149,20 +157,28 @@ img.heroImg{
 
 .heroTextSection h1{
     font-weight: 800 !important;
-    color: white !important;
-    font-size: 3.6em;
-    line-height: 70px;
+    color: #f8f8ff !important;
+    font-size: 3.2em;
 }
 
 .heroTextSection h2{
-    font-weight: 600;
-    font-size: 1.7em;
+    /* font-weight: 600;
+    font-size: 1.7em; */
+    font-weight: 700;
+    font-size: 3.25em;
+    line-height: 1.3;
+}
+    /* PERIOD  */
+.heroTextSection > .title span{
+    color: rgba(255, 255, 255, 0.752) !important;
+    font-weight: 500 !important;
 }
 
 .experienceName{
     font-weight: 401;
     font-size: 2.4vh;
 }
+
 .contactButtons{
     margin: 10px 10px 10px 0px;
 }
@@ -318,7 +334,7 @@ img.heroImg{
     .heroTextSection h1{
         font-size: 2.5em;
     }
-.heroTextSection h2{
+    .heroTextSection h2{
         font-weight: 600;
         font-size: 1.2em;
     }
