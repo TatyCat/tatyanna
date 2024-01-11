@@ -142,7 +142,7 @@ img.heroImg{
     z-index: 2; 
     max-width: 80%; 
     margin-left: 49px; 
-    padding-top: 7rem;
+    padding-top: 6rem;
     display: block;
     margin-bottom: 4rem;
 }
@@ -302,9 +302,6 @@ img.heroImg{
 .footer{
     background-color: rgb(56, 56, 56);   
     padding-bottom: 3.6em;
-    /* background-image: url('./images/HeroImg.jpg');
-    background-position:bottom;
-    background-size: cover; */
 }
 
 .footer div p { 
@@ -321,7 +318,7 @@ img.heroImg{
     .heroTextSection h1{
         font-size: 2.5em;
     }
-    .heroTextSection h2{
+.heroTextSection h2{
         font-weight: 600;
         font-size: 1.2em;
     }
