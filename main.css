@@ -197,7 +197,8 @@ img.heroImg{
 }
 
 .aboutMeText{
-    font-size: 1.25em;
+    font-size: 3.6vh;
+    /* font-size: 1.25em; */
     font-weight: 300;
 }
 
@@ -336,9 +337,9 @@ img.heroImg{
 
 /* MOBILE Start */ 
 @media screen and (max-width: 768px) {
-    .navbar a, p{
+    .navbar a, .navbar p{
         font-weight: 400;
-        font-size: .9em!important;
+        font-size: 1em!important;
     }
     .heroTextSection h1{
         font-size: 2.5em;
@@ -428,6 +429,9 @@ img.heroImg{
         /* font-size: 1.2em; */
         font-size: 2.6vh;
     }
+    .ResumeSummary > *, .aboutMeText, .cardTitle {
+        font-size: 1.3rem !important;
+    }
     .contactButtonsDiv{
         display: flex;
         justify-content: center;
@@ -438,27 +442,18 @@ img.heroImg{
     .media-content {
         overflow-x: none;      
     }
-
     div.navbar-dropdown > p, .content-inner > a {
         font-size: 2.8vh !important;
-      }
+    }
+    .pfpAvatar{
+    width: 16vh !important;
+    }
 }
-
-/* Overide Media Settings for Navbar */
-/* navbar
-navbar-dropdown
-navbar-item 
-navbar-brand
-collapsible
-lbl-toggle
-collapsible-content
-content-inner */
 
 @media screen and (min-width: 481px) {
     .navbar-menu{
         background-color: unset !important;
     }
-
     .navbar,
     .navbar-menu,
     .navbar-start,
@@ -597,7 +592,7 @@ content-inner */
     html.has-spaced-navbar-fixed-bottom,
     body.has-spaced-navbar-fixed-bottom {
       padding-bottom: 5.25rem;
-    }
+    }    
    
   }
   
